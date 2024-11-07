@@ -1,0 +1,117 @@
+zona,regione,provincia,codice
+Nord-ovest,Piemonte,TORINO,L219
+Nord-ovest,Piemonte,VERCELLI,L750
+Nord-ovest,Piemonte,NOVARA,F952
+Nord-ovest,Piemonte,CUNEO,D205
+Nord-ovest,Piemonte,ASTI,A479
+Nord-ovest,Piemonte,ALESSANDRIA,A182
+Nord-ovest,Piemonte,BIELLA,A859
+Nord-ovest,Piemonte,VERBANO,D223
+Nord-ovest,Piemonte,CUSIO,D223
+Nord-ovest,Piemonte,OSSOLA,D223
+Nord-ovest,Valle d'Aosta,AOSTA,A326
+Nord-ovest,Lombardia,VARESE,L682
+Nord-ovest,Lombardia,COMO,C933
+Nord-ovest,Lombardia,SONDRIO,I829
+Nord-ovest,Lombardia,MILANO,F205
+Nord-ovest,Lombardia,BERGAMO,A794
+Nord-ovest,Lombardia,BRESCIA,B157
+Nord-ovest,Lombardia,PAVIA,G388
+Nord-ovest,Lombardia,CREMONA,D150
+Nord-ovest,Lombardia,MANTOVA,E897
+Nord-ovest,Lombardia,LECCO,E507
+Nord-ovest,Lombardia,LODI,E648
+Nord-ovest,Lombardia,MONZA,F704
+Nord-est,Trentino-Alto Adige,BOLZANO,A952
+Nord-est,Trentino-Alto Adige,TRENTO,L378
+Nord-est,Veneto,VERONA,L781
+Nord-est,Veneto,VICENZA,L840
+Nord-est,Veneto,BELLUNO,A757
+Nord-est,Veneto,TREVISO,L407
+Nord-est,Veneto,VENEZIA,L736
+Nord-est,Veneto,PADOVA,G224
+Nord-est,Veneto,ROVIGO,H620
+Nord-est,Friuli-Venezia Giulia,UDINE,L483
+Nord-est,Friuli-Venezia Giulia,GORIZIA,E098
+Nord-est,Friuli-Venezia Giulia,TRIESTE,L424
+Nord-est,Friuli-Venezia Giulia,PORDENONE,G888
+Nord-ovest,Liguria,IMPERIA,E290
+Nord-ovest,Liguria,SAVONA,I480
+Nord-ovest,Liguria,GENOVA,D969
+Nord-ovest,Liguria,LA SPEZIA,E463
+Nord-est,Emilia-Romagna,PIACENZA,G535
+Nord-est,Emilia-Romagna,PARMA,G337
+Nord-est,Emilia-Romagna,REGGIO NELL'EMILIA,H223
+Nord-est,Emilia-Romagna,MODENA,F257
+Nord-est,Emilia-Romagna,BOLOGNA,A944
+Nord-est,Emilia-Romagna,FERRARA,D548
+Nord-est,Emilia-Romagna,RAVENNA,H199
+Nord-est,Emilia-Romagna,FORLI,D704
+Nord-est,Emilia-Romagna,CESENA,C573
+Nord-est,Emilia-Romagna,RIMINI,H294
+Centro,Toscana,MASSA,F023
+Centro,Toscana,CARRARA,B832
+Centro,Toscana,LUCCA,E715
+Centro,Toscana,PISTOIA,G713
+Centro,Toscana,FIRENZE,D612
+Centro,Toscana,LIVORNO,E625
+Centro,Toscana,PISA,G702
+Centro,Toscana,AREZZO,A390
+Centro,Toscana,SIENA,I726
+Centro,Toscana,GROSSETO,E202
+Centro,Toscana,PRATO,G999
+Centro,Umbria,PERUGIA,G478
+Centro,Umbria,TERNI,L117
+Centro,Marche,PESARO,G479
+Centro,Marche,URBINO,L500
+Centro,Marche,ANCONA,A271
+Centro,Marche,MACERATA,E783
+Centro,Marche,ASCOLI PICENO,A462
+Centro,Marche,FERMO,D542
+Centro,Lazio,VITERBO,M082
+Centro,Lazio,RIETI,H282
+Centro,Lazio,ROMA,H501
+Centro,Lazio,LATINA,E472
+Centro,Lazio,FROSINONE,D810
+Sud,Abruzzo,L'AQUILA,A345
+Sud,Abruzzo,TERAMO,L103
+Sud,Abruzzo,PESCARA,G482
+Sud,Abruzzo,CHIETI,C632
+Sud,Molise,CAMPOBASSO,B519
+Sud,Molise,ISERNIA,E335
+Sud,Campania,CASERTA,B963
+Sud,Campania,BENEVENTO,A783
+Sud,Campania,NAPOLI,F839
+Sud,Campania,AVELLINO,A509
+Sud,Campania,SALERNO,H703
+Sud,Puglia,FOGGIA,D643
+Sud,Puglia,BARI,A662
+Sud,Puglia,TARANTO,L049
+Sud,Puglia,BRINDISI,B180
+Sud,Puglia,LECCE,E506
+Sud,Puglia,BARLETTA,A669
+Sud,Puglia,ANDRIA,A285
+Sud,Puglia,TRANI,L328
+Sud,Basilicata,POTENZA,G942
+Sud,Basilicata,MATERA,F052
+Sud,Calabria,COSENZA,D086
+Sud,Calabria,CATANZARO,C352
+Sud,Calabria,REGGIO DI CALABRIA,H224
+Sud,Calabria,CROTONE,D122
+Sud,Calabria,VIBO VALENTIA,F537
+IsoleSic,Sicilia,TRAPANI,L331
+IsoleSic,Sicilia,PALERMO,G273
+IsoleSic,Sicilia,MESSINA,F158
+IsoleSic,Sicilia,AGRIGENTO,A089
+IsoleSic,Sicilia,CALTANISSETTA,B429
+IsoleSic,Sicilia,ENNA,C342
+IsoleSic,Sicilia,CATANIA,C351
+IsoleSic,Sicilia,RAGUSA,H163
+IsoleSic,Sicilia,SIRACUSA,I754
+IsoleSar,Sardegna,SASSARI,I452
+IsoleSar,Sardegna,NUORO,F979
+IsoleSar,Sardegna,CAGLIARI,B354
+IsoleSar,Sardegna,ORISTANO,G113
+IsoleSar,Sardegna,OLBIA,G015
+IsoleSar,Sardegna,CARBONIA,B745
+IsoleSar,Sardegna,IGLESIAS,E281
