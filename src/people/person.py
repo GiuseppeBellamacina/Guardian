@@ -1,7 +1,8 @@
 from utilities import (
     DataGenerator,
     Date,
-    City
+    City,
+    Age
 )
 import re
 
@@ -9,21 +10,60 @@ class Person():
     """
     Represents a person with some personal information.
     """
-    def __init__(self, generator: DataGenerator, gender=None, age=None, birthdate: Date | None=None, name=None, last_name=None, city: City | None=None):
+    def __init__(self, generator: DataGenerator,
+                 gender: str | None=None,
+                 age: Age | None=None,
+                 birthdate: Date | None=None,
+                 name:str | None=None,
+                 last_name: str | None=None,
+                 city: City | None=None):
         self.gender = gender if gender else generator.get_gender()
         self.age = age if age else generator.get_age()
-        self.birthdate = birthdate if birthdate else generator.get_birthdate(self.age)
+        self.birthdate = birthdate if birthdate else generator.get_birthdate(self.age.age_value)
         self.name = name if name else generator.get_name(self.gender)
         self.last_name = last_name if last_name else generator.get_last_name()
         self.city = city if city else generator.get_city()
         self.cf = CFGenerator.get_fiscal_code(self)
+        self.original_family = None
+        self.new_family = None
+    
+    def set_original_family(self, family):
+        self.original_family = family
+    
+    def set_new_family(self, family):
+        self.new_family = family
     
     def __str__(self):
-        s = f"{self.name} {self.last_name}, {self.age} years old ({self.gender})\n"
+        s = f"{self.name} {self.last_name}, {self.age.age_value} years old ({self.gender})\n"
         s += f"Born in {self.city}\n"
         s += f"on {self.birthdate}\n"
         s += f"CF: {self.cf}"
         return s
+
+    def to_csv(self):
+        s = ""
+        s += self.cf + ","
+        s += self.name + ","
+        s += self.last_name + ","
+        s += str(self.birthdate) + ","
+        s += self.gender + ","
+        s += self.city.name + ","
+        
+        # Solo livello 0
+        if self.original_family.family_root == self or self.original_family.partner == self:
+            s += ",,"
+        else:
+            s += self.original_family.family_root.cf + ","
+            s += self.original_family.partner.cf + ","
+        
+        if self.new_family:
+            if self.new_family.partner and self.new_family.partner != self:
+                s += self.new_family.partner.cf
+            elif self.new_family.family_root != self:
+                s += self.new_family.family_root.cf
+        
+        return s
+        
 
 class CFGenerator():
     """
