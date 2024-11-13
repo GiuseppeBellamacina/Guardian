@@ -62,8 +62,7 @@ class Person():
             elif self.new_family.family_root != self:
                 s += self.new_family.family_root.cf
         
-        return s
-        
+        return s     
 
 class CFGenerator():
     """

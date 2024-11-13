@@ -113,5 +113,6 @@ class FamilyGraph():
                 for individual in individuals:
                     f.write(f"{individual.to_csv()}\n")
                     number_of_lines += 1
+        f.close()
         print(f"Written {number_of_lines} lines to {filename}")
         

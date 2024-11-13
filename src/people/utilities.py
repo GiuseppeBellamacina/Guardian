@@ -7,11 +7,11 @@ class AgeGroup(Enum):
     INFANT = (0, 1, 0.01)  # Neonati fino a 1 anno
     TODDLER = (2, 3, 0.01)  # Bambini piccoli, 2-3 anni
     
-    EARLY_CHILD = (4, 6, 0.04)  # Prima infanzia
-    MIDDLE_CHILD = (7, 9, 0.04)  # Infanzia intermedia
-    LATE_CHILD = (10, 12, 0.04)  # Preadolescenza
+    EARLY_CHILD = (4, 5, 0.04)  # Prima infanzia
+    MIDDLE_CHILD = (6, 10, 0.04)  # Infanzia intermedia
+    LATE_CHILD = (11, 13, 0.04)  # Preadolescenza
 
-    EARLY_TEEN = (13, 15, 0.05)  # Adolescenti
+    EARLY_TEEN = (14, 15, 0.05)  # Adolescenti
     LATE_TEEN = (16, 17, 0.05)  # Fine adolescenza
 
     EARLY_YOUTH = (18, 21, 0.08)  # Giovani adulti
@@ -106,6 +106,7 @@ class FileReader():
         with open(file_path, 'r', encoding='utf-8') as file:
             for line in file:
                 lines.append(line.strip())
+        file.close()
         return lines
     
     @staticmethod
@@ -256,3 +257,10 @@ class DataGenerator():
         if (birth_month, birth_day) > (today.month, today.day):
             birth_year -= 1
         return Date(birth_day, birth_month, birth_year)
+
+    def get_age_from_birthdate(self, birthdate: Date) -> Age:
+        today = datetime.today()
+        age = today.year - birthdate.year
+        if (birthdate.month, birthdate.day) > (today.month, today.day):
+            age -= 1
+        return Age(age, self._get_age_group(age))
