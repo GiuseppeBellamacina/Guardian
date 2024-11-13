@@ -37,20 +37,20 @@ class AgeGroup(Enum):
     EARLY_LATE_ELDERLY = (86, 90, 0.01)  # Anziani molto avanzati
     CENTENARIAN = (91, 110, 0.01)  # Ultracentenari
     
-    def __le__(self, other):
+    def __le__(self, other: 'AgeGroup'):
         return self.value[0] <= other.value[0]
     
-    def __ge__(self, other):
+    def __ge__(self, other: 'AgeGroup'):
         return self.value[0] >= other.value[0]
     
-    def __lt__(self, other):
+    def __lt__(self, other: 'AgeGroup'):
         return self.value[0] < other.value[0]
     
-    def __gt__(self, other):
+    def __gt__(self, other: 'AgeGroup'):
         return self.value[0] > other.value[0]
 
 
-class City():
+class City:
     """
     Represents a city with a code and a name.
     """
@@ -63,7 +63,7 @@ class City():
     def __str__(self):
         return f"{self.name} ({self.code}) in {self.region} ({self.zone})"
 
-class Date():
+class Date:
     """
     Represents a date with day, month and year.
     """
@@ -75,7 +75,7 @@ class Date():
     def __str__(self):
         return f"{self.year}-{self.month:02}-{self.day:02}"
 
-class Age():
+class Age:
     """
     Represents a person's age.
     """
@@ -84,19 +84,22 @@ class Age():
         self.group = group
     
     def __le__(self, other: 'Age'):
-        return self.age <= other.age
+        return self.age_value <= other.age_value
     
     def __ge__(self, other: 'Age'):
-        return self.age >= other.age
+        return self.age_value >= other.age_value
     
     def __lt__(self, other: 'Age'):
-        return self.age < other.age
+        return self.age_value < other.age_value
     
     def __gt__(self, other: 'Age'):
-        return self.age > other.age
+        return self.age_value > other.age_value
+    
+    def __int__(self):
+        return self.age_value
         
 
-class FileReader():
+class FileReader:
     """
     Reads data from a file.
     """
@@ -116,16 +119,16 @@ class FileReader():
             return [object_type(*row) for row in df.itertuples(index=False)]
         return [tuple(row) for row in df.itertuples(index=False)]
 
-class DataGenerator():
+class DataGenerator:
     """
     Generates random data for a person.
     """
     def __init__(
         self,
-        cities_file='../../data/province.csv',
-        male_file='../../data/nomiM.txt',
-        female_file='../../data/nomiF.txt',
-        last_names_file='../../data/cognomi.txt'
+        cities_file='../../data/files/province.csv',
+        male_file='../../data/files/nomiM.txt',
+        female_file='../../data/files/nomiF.txt',
+        last_names_file='../../data/files/cognomi.txt'
     ):
         print("\33[1;33m[DataGenerator]\33[0m: Initializing data generator")
         try:
@@ -136,6 +139,7 @@ class DataGenerator():
             print("\33[1;32m[DataGenerator]\33[0m: Data are ready")
         except Exception as e:
             print("\33[1;31m[DataGenerator]\33[0m: Error: " + str(e))
+            raise e
     
     def get_gender(self) -> str:
         return random.choice(['M', 'F'])
@@ -172,7 +176,7 @@ class DataGenerator():
         min_age, max_age, _ = group.value
         return Age(random.randint(min_age, max_age), group)
     
-    def _get_age_group(self, age, n=0) -> AgeGroup:
+    def _get_age_group(self, age: Age | int, n=0) -> AgeGroup:
         """
         Restituisce un gruppo di età entro `n` gruppi di distanza dall'età fornita,
         usando pesi per favorire i gruppi più vicini.

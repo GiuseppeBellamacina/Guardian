@@ -3,12 +3,18 @@ from family import Family
 from person import Person
 import random
 
-class FamilyGraph():
-    def __init__(self, generator: DataGenerator, number_of_progenitors: int, oldest_group: AgeGroup):
+class FamilyGraph:
+    """
+    Generates a family graph with multiple levels.
+    """
+    def __init__(self, generator: DataGenerator, number_of_progenitors: int, oldest_group: AgeGroup, limit_group: AgeGroup = AgeGroup.INFANT, start_max_children: int = 8):
+        print("\33[1;33m[FamilyGraph]\33[0m: Generation started")
         self.generator = generator
         self.levels = []
         self.current_level = -1
         self.generate_progenitors(number_of_progenitors, oldest_group)
+        self.generate_full_family_tree(limit_group, start_max_children)
+        print("\33[1;32m[FamilyGraph]\33[0m: Graph generated")
     
     def add_level(self):
         self.levels.append([])
@@ -97,7 +103,8 @@ class FamilyGraph():
             
             start_max_children -= 3
             next_level_individuals = self.levels[self.current_level]
-            avg_age = sum([individual.age.age_value for individual in next_level_individuals]) / len(next_level_individuals)
+            ages = [int(individual.age) for individual in next_level_individuals]
+            avg_age = sum([age for age in ages]) / len(ages)
             
             if self.generator._get_age_group(avg_age) <= limit_group:
                 break
@@ -114,5 +121,5 @@ class FamilyGraph():
                     f.write(f"{individual.to_csv()}\n")
                     number_of_lines += 1
         f.close()
-        print(f"Written {number_of_lines} lines to {filename}")
+        print(f"\33[1;34m[FamilyGraph]\33[0m: Written {number_of_lines} lines to {filename}")
         

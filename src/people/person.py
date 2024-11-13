@@ -6,7 +6,7 @@ from utilities import (
 )
 import re
 
-class Person():
+class Person:
     """
     Represents a person with some personal information.
     """
@@ -19,7 +19,7 @@ class Person():
                  city: City | None=None):
         self.gender = gender if gender else generator.get_gender()
         self.age = age if age else generator.get_age()
-        self.birthdate = birthdate if birthdate else generator.get_birthdate(self.age.age_value)
+        self.birthdate = birthdate if birthdate else generator.get_birthdate(int(self.age))
         self.name = name if name else generator.get_name(self.gender)
         self.last_name = last_name if last_name else generator.get_last_name()
         self.city = city if city else generator.get_city()
@@ -34,7 +34,7 @@ class Person():
         self.new_family = family
     
     def __str__(self):
-        s = f"{self.name} {self.last_name}, {self.age.age_value} years old ({self.gender})\n"
+        s = f"{self.name} {self.last_name}, {str(int(self.age))} years old ({self.gender})\n"
         s += f"Born in {self.city}\n"
         s += f"on {self.birthdate}\n"
         s += f"CF: {self.cf}"
@@ -64,7 +64,7 @@ class Person():
         
         return s     
 
-class CFGenerator():
+class CFGenerator:
     """
     Generates the fiscal code of a person.
     """

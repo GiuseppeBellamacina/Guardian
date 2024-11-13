@@ -8,24 +8,24 @@ generator = DataGenerator()
 graphs: list[FamilyGraph] = []
 
 oldest_groups = list(AgeGroup)[-5:] # Last 5 age groups
-N = 15 # Start with 15 families
-data_dir = "../../db/"
+N_GRAPHS = 15 # Start with N_GRAPHS families
+N_PROGENITORS = 15 # Each family has N_PROGENITORS progenitors
+data_dir = "../../data/db/"
 
-# Each graph has 10 progenitors
-for i in range(N):
-    graphs.append(FamilyGraph(generator, 15, random.choice(oldest_groups)))
+# Create families
+for i in range(N_GRAPHS):
+    graphs.append(FamilyGraph(generator, N_PROGENITORS, random.choice(oldest_groups)))
 
-# Generate families
+# Write families to csv
 for i, graph in enumerate(graphs):
-    graph.generate_full_family_tree()
     graph.write_to_csv(filename=data_dir+"families.csv", append=i)
 
-# Create schools
+# Create schools and write to csv
 school_gen = SchoolGenerator([g.levels for g in graphs])
 school_gen.write_to_csv(filename=data_dir+"schools.csv")
 school_gen.write_attendance_to_csv(filename=data_dir+"attendance_school.csv")
 
-# Create workplaces
+# Create workplaces and write to csv
 workplace_gen = WorkPlaceGenerator([g.levels for g in graphs])
 workplace_gen.write_to_csv(filename=data_dir+"workplaces.csv")
 workplace_gen.write_attendance_to_csv(filename=data_dir+"attendance_workplace.csv")

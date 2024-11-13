@@ -2,7 +2,7 @@ from utilities import DataGenerator
 from person import Person
 import random
 
-class Family():
+class Family:
     def __init__(self, generator: DataGenerator, family_root: Person):
         self.generator = generator
         self.family_root = family_root
@@ -15,24 +15,23 @@ class Family():
         else:
             self.partner = Person(
                 generator=self.generator,
-                age=self.generator.get_age(similar_to=self.family_root.age.age_value, n=2),
+                age=self.generator.get_age(similar_to=int(self.family_root.age), n=2),
                 gender='F' if self.family_root.gender == 'M' else 'M',
                 city=self.generator.get_city(self.family_root.city)
             )
         self.partner.set_new_family(self)
     
     def add_child(self):
-        """Aggiunge un figlio con età opzionale."""
         parent_ages = []
         if self.family_root:
-            parent_ages.append(self.family_root.age.age_value)
+            parent_ages.append(self.family_root.age)
         if self.partner:
-            parent_ages.append(self.partner.age.age_value)
-        parent_age = min(parent_ages) if parent_ages else None
+            parent_ages.append(self.partner.age)
+        parent_age = min([int(age) for age in parent_ages]) if parent_ages else None
         
         age = self.generator.get_age(similar_to=parent_age - 20)
         
-        while any(child.age.age_value == age for child in self.children):
+        while any(int(child.age) == age for child in self.children):
             age.age_value += 2
                
         child = Person(

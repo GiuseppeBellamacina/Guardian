@@ -14,10 +14,19 @@ class School:
         return self.name
 
 class SchoolGenerator:
+    """
+    Generates schools for people.
+    """
     def __init__(self, people):
-        self.people = self._filter_scholars(self._flatten(people))
-        self.schools = self._generate_school()
-        self.attended_schools = self._assign_school()
+        try:
+            print("\33[1;33m[SchoolGenerator]\33[0m: Generation started")
+            self.people = self._filter_scholars(self._flatten(people))
+            self.schools = self._generate_school()
+            self.attended_schools = self._assign_school()
+            print("\33[1;32m[SchoolGenerator]\33[0m: Generation completed")
+        except Exception as e:
+            print("\33[1;31m[SchoolGenerator]\33[0m: Error: " + str(e))
+            raise e
         
     def _flatten(self, lst):
         return [item for sublist in lst for subsublist in sublist for item in subsublist]
@@ -73,7 +82,7 @@ class SchoolGenerator:
                 f.write(f"{k.name},{k.category},{k.city}\n")
                 c += 1
         f.close()
-        print(f"{c} schools written to {filename}")
+        print(f"\33[1;34m[SchoolGenerator]\33[0m: {c} schools written to {filename}")
     
     def write_attendance_to_csv(self, filename="school_attendance.csv"):
         c = 0
@@ -84,4 +93,4 @@ class SchoolGenerator:
                     f.write(f"{k.name},{cf}\n")
                     c += 1
         f.close()
-        print(f"{c} attendances written to {filename}")
+        print(f"\33[1;34m[SchoolGenerator]\33[0m: {c} attendances written to {filename}")
