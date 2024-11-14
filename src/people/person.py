@@ -16,13 +16,15 @@ class Person:
                  birthdate: Date | None=None,
                  name:str | None=None,
                  last_name: str | None=None,
-                 city: City | None=None):
+                 city: City | None=None,
+                 residence: City | None=None):
         self.gender = gender if gender else generator.get_gender()
         self.age = age if age else generator.get_age()
         self.birthdate = birthdate if birthdate else generator.get_birthdate(int(self.age))
         self.name = name if name else generator.get_name(self.gender)
         self.last_name = last_name if last_name else generator.get_last_name()
         self.city = city if city else generator.get_city()
+        self.residence = residence if residence else self.city
         self.cf = CFGenerator.get_fiscal_code(self)
         self.original_family = None
         self.new_family = None
@@ -40,6 +42,9 @@ class Person:
         s += f"CF: {self.cf}"
         return s
 
+    def __repr__(self) -> str:
+        return self.__str__()
+
     def to_csv(self):
         s = ""
         s += self.cf + ","
@@ -48,6 +53,7 @@ class Person:
         s += str(self.birthdate) + ","
         s += self.gender + ","
         s += self.city.name + ","
+        s += self.residence.name + ","
         
         # Solo livello 0
         if self.original_family.family_root == self or self.original_family.partner == self:

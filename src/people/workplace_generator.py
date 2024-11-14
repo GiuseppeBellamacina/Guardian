@@ -11,7 +11,7 @@ class WorkPlace:
         return self.name
     
     def __repr__(self):
-        return self.name
+        return self.__str__()
 
 class WorkPlaceGenerator:
     """
@@ -35,7 +35,7 @@ class WorkPlaceGenerator:
         return [p for p in lst if AgeGroup.EARLY_YOUTH <= p.age.group <= AgeGroup.LATE_LATE_SENIOR]
     
     def _generate_workplaces(self):
-        cities = {p.city for p in self.people}
+        cities = {p.residence for p in self.people}
         categories = ["Azienda", "Fabbrica", "Ufficio", "Ospedale"]
         templates = ["Azienda di {0}", "Fabbrica di {0}", "Ufficio di {0}", "Ospedale di {0}"]
 

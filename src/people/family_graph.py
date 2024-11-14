@@ -12,12 +12,14 @@ class FamilyGraph:
         self.generator = generator
         self.levels = []
         self.current_level = -1
+        self.families = []
         self.generate_progenitors(number_of_progenitors, oldest_group)
         self.generate_full_family_tree(limit_group, start_max_children)
         print("\33[1;32m[FamilyGraph]\33[0m: Graph generated")
     
     def add_level(self):
         self.levels.append([])
+        self.families.append([])
         self.current_level += 1
 
     def generate_progenitors(self, number_of_progenitors: int, oldest_group: AgeGroup):
@@ -42,7 +44,32 @@ class FamilyGraph:
             family.get_partner().set_original_family(family)
             family.get_partner().set_new_family(family)
             self.levels[1].extend(family.get_children())
+            self.families[self.current_level-1].append(family)
     
+    def _sibling_check(self, individual: Person, potential_sibling: Person) -> bool:
+        if not potential_sibling:
+            return False
+        if individual.original_family == potential_sibling.original_family:
+            return True
+        return False
+    
+    def _cousin_check(self, individual: Person, potential_cousin: Person) -> bool:
+        if not potential_cousin:
+            return False
+        if not individual.original_family or not potential_cousin.original_family:
+            return False
+        individual_parents_families = [
+            individual.original_family.family_root.original_family,
+            individual.original_family.partner.original_family
+        ] if individual.original_family.partner else [individual.original_family.family_root.original_family]
+        potential_cousin_parents_families = [
+            potential_cousin.original_family.family_root.original_family,
+            potential_cousin.original_family.partner.original_family
+        ] if potential_cousin.original_family.partner else [potential_cousin.original_family.family_root.original_family]
+        if any(family in potential_cousin_parents_families for family in individual_parents_families):
+            return True
+        return False
+        
     def generate_next_level(self, max_children: int = 4):        
         current_level_individuals = self.levels[self.current_level]
         if not current_level_individuals:
@@ -73,7 +100,7 @@ class FamilyGraph:
             
             partner = next(
                 (p for p in potential_partners 
-                if p.original_family != root.original_family and p not in used_partners), 
+                if p not in used_partners and not self._sibling_check(root, p) and not self._cousin_check(root, p)),
                 None
             )
             
@@ -87,6 +114,7 @@ class FamilyGraph:
             
             children = family.get_children()
             self.levels[self.current_level].extend(children)
+            self.families[self.current_level-1].append(family)
             
             if children:
                 added_any = True
@@ -115,11 +143,12 @@ class FamilyGraph:
         
         with open(filename, mode, encoding='utf-8') as f:
             if not append:
-                f.write("cf,name,last_name,birthdate,gender,city,gen1,gen2,partner_of\n")
+                f.write("cf,name,last_name,birthdate,gender,birthplace,residence,gen1,gen2,partner_of\n")
             for level, individuals in enumerate(self.levels):
                 for individual in individuals:
                     f.write(f"{individual.to_csv()}\n")
                     number_of_lines += 1
         f.close()
         print(f"\33[1;34m[FamilyGraph]\33[0m: Written {number_of_lines} lines to {filename}")
+        return number_of_lines
         

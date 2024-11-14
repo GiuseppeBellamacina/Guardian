@@ -1,0 +1,65 @@
+crime_type,description,severity_score,probability_of_committing
+Furto,"Furto di oggetti di valore da un'abitazione",300,0.01
+Frode,"Frode finanziaria con documenti falsi",450,0.015
+Assalto,"Assalto fisico con lesioni gravi",700,0.01
+Rapina,"Rapina a mano armata in un negozio",800,0.008
+Possesso di Droga,"Possesso di sostanze stupefacenti illegali",400,0.02
+Omicidio,"Omicidio premeditato",995,0.001
+Furto d'Auto,"Furto di un veicolo",600,0.005
+Riciclaggio di Denaro,"Coinvolgimento in un giro di riciclaggio di denaro",850,0.005
+Incendio Doloso,"Incendio doloso di un edificio pubblico",900,0.003
+Spaccio di Droga,"Traffico e distribuzione di sostanze stupefacenti",950,0.005
+Estorsione,"Richiesta di denaro tramite minacce",750,0.006
+Sfruttamento della Prostituzione,"Gestione di attività di prostituzione forzata",880,0.003
+Cybercrimine,"Accesso non autorizzato a sistemi informatici",500,0.008
+Violenza Domestica,"Abusi fisici su un familiare",650,0.01
+Truffa,"Truffa telefonica con sottrazione di denaro",450,0.015
+Stupro,"Violenza sessuale",980,0.002
+Contraffazione,"Produzione e vendita di beni contraffatti",350,0.02
+Aggressione,"Aggressione verbale e minacce fisiche",200,0.015
+Furto di Identità,"Utilizzo illecito dell'identità di un'altra persona",600,0.007
+Sequestro di Persona,"Rapimento a scopo di riscatto",950,0.002
+Abuso di Minore,"Violenza o maltrattamento su un minore",990,0.004
+Corruzione,"Accettazione o offerta di tangenti a funzionari pubblici",780,0.01
+Sommossa,"Partecipazione a sommosse o disordini pubblici",300,0.01
+Vandalismo,"Danneggiamento intenzionale di proprietà altrui",250,0.03
+Pirateria Informatica,"Distribuzione di contenuti digitali piratati",350,0.02
+Danneggiamento,"Distruzione o danneggiamento di beni pubblici",200,0.005
+Minaccia Terroristica,"Pianificazione o supporto di atti terroristici",999,0.001
+Violazione di Domicilio,"Accesso non autorizzato in una proprietà privata",400,0.008
+Usura,"Prestito di denaro a tassi di interesse usurai",720,0.005
+Inquinamento Ambientale,"Smaltimento illecito di rifiuti tossici",850,0.009
+Prostituzione Minorile,"Coinvolgimento di minori in attività di prostituzione",980,0.002
+Frode Fiscale,"Evasione fiscale o dichiarazioni false",650,0.018
+Violazione dei Diritti Umani,"Violazione intenzionale dei diritti fondamentali",900,0.001
+Mobbing,"Comportamenti persecutori sul luogo di lavoro",350,0.0055
+Invasione della Privacy,"Accesso o divulgazione non autorizzata di informazioni personali",450,0.0045
+Bullismo,"Aggressione verbale e psicologica contro una persona vulnerabile",300,0.006
+Incitamento all'Odio,"Diffusione di messaggi che incitano all'odio",550,0.0025
+Intimidazione,"Comportamento minaccioso verso un'altra persona",350,0.005
+Abbandono di Minore,"Lasciare un minore senza supervisione o assistenza",600,0.0022
+Rissa,"Partecipazione a una rissa pubblica",400,0.0055
+Tentato Omicidio,"Tentativo di uccidere un'altra persona",950,0.002
+Violazione della Proprietà Intellettuale,"Copia e distribuzione di contenuti protetti da copyright",500,0.003
+Molestia Sessuale,"Avances o gesti a sfondo sessuale non consensuali",750,0.0018
+Discriminazione,"Trattamento ingiusto basato su razza genere o religione",450,0.0035
+Furto di Dati,"Sottrazione illecita di dati personali o aziendali",600,0.0025
+Bracconaggio,"Caccia illegale di animali protetti",700,0.0015
+Diffamazione,"Diffusione di informazioni false per danneggiare una persona",250,0.005
+Traffico di Organi,"Vendita o acquisto illegale di organi umani",999,0.001
+Falsificazione di Documenti,"Produzione o utilizzo di documenti falsi",550,0.002
+Stalking,"Persecuzione e monitoraggio costante di una persona",650,0.015
+Aggiotaggio,"Manipolazione dei prezzi sul mercato finanziario",800,0.012
+Sfruttamento del Lavoro Minorile,"Utilizzo di minori per lavoro in condizioni abusive",880,0.007
+Schiamazzi Notturni,"Rumore molesto in orari notturni",50,0.01
+Divieto di Sosta,"Parcheggio in area non consentita",30,0.1
+Littering,"Abbandono di rifiuti in luogo pubblico",70,0.08
+Vendita Non Autorizzata,"Vendita di beni senza licenza",100,0.05
+Disturbo della Quieta Pubblica,"Disturbo di eventi pubblici con rumori o comportamenti molesti",120,0.07
+Mancato Rispetto dei Limiti di Velocità,"Superamento dei limiti di velocità alla guida",150,0.15
+Graffitismo,"Esecuzione di graffiti su muri pubblici senza permesso",80,0.01
+Accattonaggio Molesto,"Richiesta di elemosina in modo insistente",50,0.0065
+Uso di Linguaggio Offensivo in Pubblico,"Insulti o linguaggio osceno in pubblico",60,0.007
+Urinare in Luogo Pubblico,"Atti indecenti in luogo pubblico",80,0.0075
+Guida con Telefono in Mano,"Utilizzo del telefono alla guida",120,0.1
+Fumo in Aree Non Consentite,"Fumo in aree in cui è vietato",30,0.08

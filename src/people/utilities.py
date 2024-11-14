@@ -62,6 +62,9 @@ class City:
     
     def __str__(self):
         return f"{self.name} ({self.code}) in {self.region} ({self.zone})"
+    
+    def __repr__(self) -> str:
+        return self.__str__()
 
 class Date:
     """

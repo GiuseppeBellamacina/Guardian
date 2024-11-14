@@ -1,0 +1,1088 @@
+crime_id,criminal,type,description,severity_score
+0,CLLPRI51H18A669O,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+1,RMBGNS48S30B519D,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+2,DMCLVI50T07F205Q,Littering,Abbandono di rifiuti in luogo pubblico,70
+3,SCCNTS43D19A390S,Urinare in Luogo Pubblico,Atti indecenti in luogo pubblico,80
+4,BRCGUO52B03D542B,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+5,CLLFNC79C05E506T,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+6,CLLGVR79E08E506J,Cybercrimine,Accesso non autorizzato a sistemi informatici,500
+7,ZNCGTV70D06H163L,Furto d'Auto,Furto di un veicolo,600
+8,ZNCDRD72R21H163A,Graffitismo,Esecuzione di graffiti su muri pubblici senza permesso,80
+9,RRQMRO71T17G113Z,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+10,GNRLNS78E31H501M,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+11,ZRZVTR73R20L328D,Contraffazione,Produzione e vendita di beni contraffatti,350
+12,CLARTI71D14F537Z,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+13,CLAPMP73P27F537P,Truffa,Truffa telefonica con sottrazione di denaro,450
+14,PRSRNI77P05D205I,Littering,Abbandono di rifiuti in luogo pubblico,70
+15,GNRMRC99A13H501N,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+16,FLNGNN01D22B745E,Littering,Abbandono di rifiuti in luogo pubblico,70
+17,CLALFA98P04F537Q,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+18,SGRLCL98B28E290S,Cybercrimine,Accesso non autorizzato a sistemi informatici,500
+19,SGRFTM98D11E290J,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+20,ZNCBSL89P07B429Q,Rissa,Partecipazione a una rissa pubblica,400
+21,ZNCLND89A09B429C,Uso di Linguaggio Offensivo in Pubblico,Insulti o linguaggio osceno in pubblico,60
+22,ZNCPMP91B05B429B,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+23,CLLDLE99S16E506R,Urinare in Luogo Pubblico,Atti indecenti in luogo pubblico,80
+24,CLLDLB00A22E506R,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+25,ZNCDTT96T14H163S,Frode,Frode finanziaria con documenti falsi,450
+26,ZNCDTT96T14H163S,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+27,ZNCGCM97L29H163J,Sommossa,Partecipazione a sommosse o disordini pubblici,300
+28,DMCGDN02A09A662X,Contraffazione,Produzione e vendita di beni contraffatti,350
+29,CLAGZZ99D26G942F,Violenza Domestica,Abusi fisici su un familiare,650
+30,SGRSMN96C12E290C,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+31,ZRZDLE93M30L328D,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+32,ZRZNLN89E02L328S,Falsificazione di Documenti,Produzione o utilizzo di documenti falsi,550
+33,ZRZSDR89P08L328M,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+34,DMCSNT94A03D122U,Divieto di Sosta,Parcheggio in area non consentita,30
+35,DMCNTL94S10D122H,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+36,CVGLFA03S15I480R,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+37,ZLLNRC95M27A509C,Divieto di Sosta,Parcheggio in area non consentita,30
+38,DFNLRC53E08L483C,Truffa,Truffa telefonica con sottrazione di denaro,450
+39,ZCCNRN50A04D548W,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+40,ZDRMRT53L31F158V,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+41,NSSRNO41L04L483D,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+42,CNZRMI56B18D548G,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+43,MTUFNZ69A18A859L,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+44,BNMMLL70A27L328E,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+45,DFNLDN69C14L483H,Sommossa,Partecipazione a sommosse o disordini pubblici,300
+46,DFNLDN69C14L483H,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+47,ZCCGTN74L02D548C,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+48,RIULBN70A13G224A,Sequestro di Persona,Rapimento a scopo di riscatto,950
+49,GCMLVO72P25D969C,Divieto di Sosta,Parcheggio in area non consentita,30
+50,BFLGLL72A12E290X,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+51,PDRCRN68S18L219A,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+52,DRAMRO71P27A757I,Contraffazione,Produzione e vendita di beni contraffatti,350
+53,DSTVIO83D24G273C,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+54,CRMRSL72M14H199I,Divieto di Sosta,Parcheggio in area non consentita,30
+55,SCHBGI94D02C342G,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+56,BFLDRT89D28E290K,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+57,DRAMAI90S25A757D,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+58,LNARCC89M25L424E,Bullismo,Aggressione verbale e psicologica contro una persona vulnerabile,300
+59,LNABRN89E22L424L,Truffa,Truffa telefonica con sottrazione di denaro,450
+60,MTUNTL91H28D223M,Aggressione,Aggressione verbale e minacce fisiche,200
+61,LNAMDA95T22L483P,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+62,LNALRI97C19L483F,Littering,Abbandono di rifiuti in luogo pubblico,70
+63,BNMSNT94P30L328D,Bracconaggio,Caccia illegale di animali protetti,700
+64,LNRMRC93A01B157R,Invasione della Privacy,Accesso o divulgazione non autorizzata di informazioni personali,450
+65,DSTPQN99S01G273K,Littering,Abbandono di rifiuti in luogo pubblico,70
+66,BFLLNS90S10E290I,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+67,BNMSML02D11A345J,Intimidazione,Comportamento minaccioso verso un'altra persona,350
+68,BNMLSS01P22A345E,Littering,Abbandono di rifiuti in luogo pubblico,70
+69,BNMNTN00R04A662L,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+70,GCMMDL90D02D969T,Divieto di Sosta,Parcheggio in area non consentita,30
+71,RIUGVF92T01G224I,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+72,CRDGNS92E18H703A,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+73,CRDGSI92C06H703Z,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+74,RZZVTR92M05A271S,Contraffazione,Produzione e vendita di beni contraffatti,350
+75,CMPFMN91D30D810J,Spaccio di Droga,Traffico e distribuzione di sostanze stupefacenti,950
+76,BFLSDI98C19L750C,Sfruttamento della Prostituzione,Gestione di attività di prostituzione forzata,880
+77,ZCCMRT00A19L483Y,Sommossa,Partecipazione a sommosse o disordini pubblici,300
+78,RIUMRC99H07G224K,Divieto di Sosta,Parcheggio in area non consentita,30
+79,LNRMTN99M17D150J,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+80,ZRMCSG42M28G482A,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+81,PTRYND41A11D612J,Aggressione,Aggressione verbale e minacce fisiche,200
+82,TRLCMN59S11G482B,Aggressione,Aggressione verbale e minacce fisiche,200
+83,BRZRNL63L02D612J,Violazione della Proprietà Intellettuale,Copia e distribuzione di contenuti protetti da copyright,500
+84,SSNCLO59T25G388F,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+85,ZRBGRL61R26B832E,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+86,ZRBGTR63C29B832V,Rissa,Partecipazione a una rissa pubblica,400
+87,CBLDVG59A03G015C,Intimidazione,Comportamento minaccioso verso un'altra persona,350
+88,NSIGLI62R10H224V,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+89,NSIGLL63D25H224L,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+90,SLMGST59L30E648U,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+91,NSINLN88D10C352M,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+92,BLDDBR79C29H224L,Littering,Abbandono di rifiuti in luogo pubblico,70
+93,RDLDBR81C01H199T,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+94,TRLCLR79A27G482C,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+95,FVAMRN88P25F979L,Littering,Abbandono di rifiuti in luogo pubblico,70
+96,DLLDTL81S14F023D,Truffa,Truffa telefonica con sottrazione di denaro,450
+97,BRZPCR80D08E715B,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+98,TRLNDR82R23G942Q,Divieto di Sosta,Parcheggio in area non consentita,30
+99,VGRDMN82R17D548O,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+100,TSNMDA82B20E507Z,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+101,SSNFDL78T04F704W,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+102,FVALDA93C25F979V,Littering,Abbandono di rifiuti in luogo pubblico,70
+103,CBLRSR78S29G015H,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+104,SLMWND82P28L736V,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+105,SLMCTN79R09E507D,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+106,CBLPLL83P30E281I,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+107,NSIDNT79B07H224J,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+108,NSILSS79L31H224Y,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+109,NSIMRA81A07E335M,Violenza Domestica,Abusi fisici su un familiare,650
+110,MTTLLD93C03A669R,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+111,TSNSFN80S21I829X,Accattonaggio Molesto,Richiesta di elemosina in modo insistente,50
+112,SLMVLI07D23L781E,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+113,NSIMRZ01M03L407K,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+114,BNGLRI06B21E472L,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+115,FVASAI03L21F979W,Estorsione,Richiesta di denaro tramite minacce,750
+116,BRZCLN05M15M082T,Urinare in Luogo Pubblico,Atti indecenti in luogo pubblico,80
+117,BLLSTN03B03D122D,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+118,PRMLBT04C21D612A,Truffa,Truffa telefonica con sottrazione di denaro,450
+119,PRMGLL06R10D612W,Truffa,Truffa telefonica con sottrazione di denaro,450
+120,PRMGLL06R10D612W,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+121,NSIRSO03R26H224W,Violazione della Proprietà Intellettuale,Copia e distribuzione di contenuti protetti da copyright,500
+122,BNGMRC06T01A859M,Divieto di Sosta,Parcheggio in area non consentita,30
+123,MSADNT99P22M082P,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+124,MSAMLE06P24A462U,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+125,CBLRNI00C30B354J,Divieto di Sosta,Parcheggio in area non consentita,30
+126,NSIGNS07P30H224J,Mobbing,Comportamenti persecutori sul luogo di lavoro,350
+127,TSNGTR00H20E507O,Littering,Abbandono di rifiuti in luogo pubblico,70
+128,DLLMLI99A23G999N,Aggressione,Aggressione verbale e minacce fisiche,200
+129,VGRTNZ06L04H223Z,Stalking,Persecuzione e monitoraggio costante di una persona,650
+130,BRZZNE01A07D612D,Frode,Frode finanziaria con documenti falsi,450
+131,ZRBNBR00P29F257Z,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+132,TRLLCN99A05G482G,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+133,TRLNEE02S01G482A,Rapina,Rapina a mano armata in un negozio,800
+134,ZRBLVS04P28D810C,Bullismo,Aggressione verbale e psicologica contro una persona vulnerabile,300
+135,GVNNLC99C29D643G,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+136,FVAMSM07H11I726J,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+137,FVAFDR07S18I726Q,Divieto di Sosta,Parcheggio in area non consentita,30
+138,SLMTZN03A05H620J,Littering,Abbandono di rifiuti in luogo pubblico,70
+139,FVABNL07P24F979N,Divieto di Sosta,Parcheggio in area non consentita,30
+140,FVABNL07P24F979N,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+141,ZRBMCL06L18D810T,Violazione dei Diritti Umani,Violazione intenzionale dei diritti fondamentali,900
+142,TRLRMI99D16G482D,Littering,Abbandono di rifiuti in luogo pubblico,70
+143,CVNNLT41H04E281F,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+144,MSLLRT36C28G015I,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+145,LPRMLD41E28D122S,Littering,Abbandono di rifiuti in luogo pubblico,70
+146,TLLFDN54H24G999A,Rapina,Rapina a mano armata in un negozio,800
+147,TLLFDN54H24G999A,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+148,CHRCMB59E14L219Q,Discriminazione,Trattamento ingiusto basato su razza genere o religione,450
+149,CHRCMB59E14L219Q,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+150,GRNCMN55R03L117R,Divieto di Sosta,Parcheggio in area non consentita,30
+151,TGLMDA53S28A326M,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+152,TRMLRD56L01I480Q,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+153,PJUSNT58B22D810H,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+154,LDBDRN54T15B180I,Invasione della Privacy,Accesso o divulgazione non autorizzata di informazioni personali,450
+155,GNVGLI56L30B519P,Invasione della Privacy,Accesso o divulgazione non autorizzata di informazioni personali,450
+156,DRSPLA77A30L117J,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+157,DRSVGL77M22F704H,Stalking,Persecuzione e monitoraggio costante di una persona,650
+158,GRNLVC78S28A859W,Spaccio di Droga,Traffico e distribuzione di sostanze stupefacenti,950
+159,TGLBNR85H04I829G,Divieto di Sosta,Parcheggio in area non consentita,30
+160,TRMLND74A11G482E,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+161,TRMMRZ75P11H223L,Divieto di Sosta,Parcheggio in area non consentita,30
+162,TTISBN86M20E715I,Invasione della Privacy,Accesso o divulgazione non autorizzata di informazioni personali,450
+163,TZZPTR87A05B519C,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+164,PJUSFN74S18B354R,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+165,TNRMRN75H11D810C,Stalking,Persecuzione e monitoraggio costante di una persona,650
+166,LDBMLD78M24F257I,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+167,LDBRFL78P29L483E,Truffa,Truffa telefonica con sottrazione di denaro,450
+168,GNVSRL78C30G482H,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+169,PLNJSC80M29C351B,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+170,CRRNNI77T04B519Y,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+171,PLNLMP81H10B519X,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+172,CRNLNR74H28G482V,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+173,CRNGRG74S28L117P,Divieto di Sosta,Parcheggio in area non consentita,30
+174,CRNLNS73S27L117P,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+175,PLNNCL02B11E463P,Divieto di Sosta,Parcheggio in area non consentita,30
+176,PLNNRN01R15E463O,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+177,NCLRMN98M10L331O,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+178,GRNCLL01P13B745N,Divieto di Sosta,Parcheggio in area non consentita,30
+179,TRMFCN99S08G482F,Incitamento all'Odio,Diffusione di messaggi che incitano all'odio,550
+180,CRNNNZ94L05A757Z,Mobbing,Comportamenti persecutori sul luogo di lavoro,350
+181,TRMGRT01C12D086S,Littering,Abbandono di rifiuti in luogo pubblico,70
+182,LDBPLT00A20G999D,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+183,PLNRND04D08I754O,Prostituzione Minorile,Coinvolgimento di minori in attività di prostituzione,980
+184,PLNRND04D08I754O,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+185,PJUDBR06C29E648V,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+186,PJUSDR06L31E648W,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+187,GHNDMN06C27D643G,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+188,GNVPRM98L22E648Z,Littering,Abbandono di rifiuti in luogo pubblico,70
+189,LNUCLL03S13D969V,Traffico di Organi,Vendita o acquisto illegale di organi umani,999
+190,GRNLTR00E26D205M,Truffa,Truffa telefonica con sottrazione di denaro,450
+191,GRNLTR00E26D205M,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+192,LDBMSM97M29L483R,Frode,Frode finanziaria con documenti falsi,450
+193,PJUSNT07E08G388F,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+194,CRRMDA99R14G113H,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+195,TRMGLN05D22F052E,Littering,Abbandono di rifiuti in luogo pubblico,70
+196,TRMGLN05D22F052E,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+197,CRRNBL95L03L117Q,Divieto di Sosta,Parcheggio in area non consentita,30
+198,CRRNBL95L03L117Q,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+199,CRRFNZ97L07L117C,Violazione di Domicilio,Accesso non autorizzato in una proprietà privata,400
+200,CRRFNZ97L07L117C,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+201,TRMSNT98B27H223T,Littering,Abbandono di rifiuti in luogo pubblico,70
+202,CHRDLM04L18B354M,Divieto di Sosta,Parcheggio in area non consentita,30
+203,CRRDRN03E26L736A,Littering,Abbandono di rifiuti in luogo pubblico,70
+204,CRRDNI03C25L736B,Divieto di Sosta,Parcheggio in area non consentita,30
+205,DRSCLD95T07L117B,Graffitismo,Esecuzione di graffiti su muri pubblici senza permesso,80
+206,TZZRZR98A18E290G,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+207,CRNGVF99C21A757J,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+208,DRSDRT94T02L117J,Divieto di Sosta,Parcheggio in area non consentita,30
+209,TZZSNO07R05F839J,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+210,CRRGLN99A01A462A,Contraffazione,Produzione e vendita di beni contraffatti,350
+211,STRMND07T04L103T,Furto d'Auto,Furto di un veicolo,600
+212,STRNCN05R03H703S,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+213,CRNPRM97E02A669F,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+214,LNUGRT02A17E290D,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+215,GNVRMN03E20A326W,Divieto di Sosta,Parcheggio in area non consentita,30
+216,GNVRMN03E20A326W,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+217,GHNFTN07T26B429Q,Divieto di Sosta,Parcheggio in area non consentita,30
+218,NCLTMR95B10E506K,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+219,GRNFTM93S21L736L,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+220,CRNZRR38P23A662P,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+221,PNTLRT37H28G999V,Furto di Identità,Utilizzo illecito dell'identità di un'altra persona,600
+222,CVLFNZ37L01H282T,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+223,LSCCGR35C08I829R,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+224,BRNSNL36R24D810M,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+225,DLLDRN36B06C342O,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+226,DSRGTA47C25A182Y,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+227,GRVNLT54D27D223I,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+228,CRMNVE65T29F052K,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+229,CRMTCR66M13F052O,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+230,BRCCPI59C17G999H,Bullismo,Aggressione verbale e psicologica contro una persona vulnerabile,300
+231,FCRMCL64R17D223J,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+232,RSGGNR56C17G273V,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+233,GRNBGI68R08D150F,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+234,PRNFDR54R23I754M,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+235,PRNDLB57R29I754I,Divieto di Sosta,Parcheggio in area non consentita,30
+236,BRCCNN78T21B832W,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+237,GRVLVR82R04D223F,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+238,BRBLRT83A19G482Y,Prostituzione Minorile,Coinvolgimento di minori in attività di prostituzione,980
+239,BRBDRT82S09G482Z,Truffa,Truffa telefonica con sottrazione di denaro,450
+240,BRBCMN81P18G482R,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+241,PCNCRI87B23G702C,Divieto di Sosta,Parcheggio in area non consentita,30
+242,CRMMTN83S16L103R,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+243,GRNSLD85P30L682R,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+244,LNGNCL85S30F158A,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+245,GRNMRK86S13D150G,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+246,GRVGTN81C15D223B,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+247,BRBCLD83B20L840I,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+248,RVLRRG77C13L331S,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+249,PCNRME88P26F979J,Uso di Linguaggio Offensivo in Pubblico,Insulti o linguaggio osceno in pubblico,60
+250,PRNMRT75D24I754C,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+251,RSSSFN81S14F023J,Furto,Furto di oggetti di valore da un'abitazione,300
+252,DLCDNC82C13F704J,Divieto di Sosta,Parcheggio in area non consentita,30
+253,PRNSDR74P15I754D,Divieto di Sosta,Parcheggio in area non consentita,30
+254,GRVLRD06S11D223X,Littering,Abbandono di rifiuti in luogo pubblico,70
+255,CRSMSM07H23F704F,Littering,Abbandono di rifiuti in luogo pubblico,70
+256,RSSVTR03L02F023O,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+257,BRBLRT04T08L407A,Accattonaggio Molesto,Richiesta di elemosina in modo insistente,50
+258,BRBMRT04T25G482O,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+259,BRBMGN03A22G482T,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+260,BRBGTN08L11L407X,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+261,BRBCST08M29L407H,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+262,PRNDRA04A25C342M,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+263,PRNMTT99T28I754H,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+264,TRPPRI07A10L682L,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+265,CRSGRN06E17F704W,Stalking,Persecuzione e monitoraggio costante di una persona,650
+266,CRSGRN06E17F704W,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+267,GRVCST06E20D223H,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+268,GRNCMB05A17E290N,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+269,GRNCCL02S15E290O,Divieto di Sosta,Parcheggio in area non consentita,30
+270,CRMNSC03L30G942L,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+271,SGGSDR38D12A462T,Divieto di Sosta,Parcheggio in area non consentita,30
+272,VSCPRI52E24E472U,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+273,FNTNLC65M18E783X,Cybercrimine,Accesso non autorizzato a sistemi informatici,500
+274,FNTCST67A24E783N,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+275,GGLGCH64E29L750Y,Littering,Abbandono di rifiuti in luogo pubblico,70
+276,GDNSCN64R30E715K,Rissa,Partecipazione a una rissa pubblica,400
+277,GDNSCN64R30E715K,Littering,Abbandono di rifiuti in luogo pubblico,70
+278,GDNCSM65P08E715L,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+279,LFNNGL66T17C352K,Littering,Abbandono di rifiuti in luogo pubblico,70
+280,MFFLLE72S09D086E,Abbandono di Minore,Lasciare un minore senza supervisione o assistenza,600
+281,MNTLCA65D25L331U,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+282,LGHTMS67S25A462V,Bullismo,Aggressione verbale e psicologica contro una persona vulnerabile,300
+283,FLTCLL70P28L736M,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+284,PSRRNO67R10B354E,Divieto di Sosta,Parcheggio in area non consentita,30
+285,PSRVVN65M01B354D,Furto,Furto di oggetti di valore da un'abitazione,300
+286,MRNBND64M24D612V,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+287,MRNZOE67R12D612Z,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+288,CRLMRN64M30A669M,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+289,TRBLGU77L11E098J,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+290,MRCRSR78M21C632A,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+291,CRLMTT85M09A669U,Spaccio di Droga,Traffico e distribuzione di sostanze stupefacenti,950
+292,FLTLRA91T15G224Z,Bracconaggio,Caccia illegale di animali protetti,700
+293,FLTVNZ89R01G224G,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+294,TRBGLM96C17E098G,Violazione di Domicilio,Accesso non autorizzato in una proprietà privata,400
+295,TRBTDD95A03E098X,Danneggiamento,Distruzione o danneggiamento di beni pubblici,200
+296,MRCCDD97R05C632W,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+297,MFFSTN89M18G224N,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+298,MFFNNZ93P03D122I,Divieto di Sosta,Parcheggio in area non consentita,30
+299,MFFMRT92T06D086Y,Littering,Abbandono di rifiuti in luogo pubblico,70
+300,PSRFLV83S26I452H,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+301,FLTNRC89H24L736H,Incitamento all'Odio,Diffusione di messaggi che incitano all'odio,550
+302,FLTNRC89H24L736H,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+303,MRNTLI84E03E472U,Littering,Abbandono di rifiuti in luogo pubblico,70
+304,GRDVTR96C08D223D,Cybercrimine,Accesso non autorizzato a sistemi informatici,500
+305,MFFVNT92M17A783F,Incendio Doloso,Incendio doloso di un edificio pubblico,900
+306,MFFNRO92R07A783V,Aggressione,Aggressione verbale e minacce fisiche,200
+307,FNTLNI86R24E783D,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+308,FNTMRN87M01E783X,Truffa,Truffa telefonica con sottrazione di denaro,450
+309,MFFGIA92T30F052O,Truffa,Truffa telefonica con sottrazione di denaro,450
+310,MFFRGR92R19F052Y,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+311,RGGRBN87D25D223U,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+312,RGGMRN84B09D223T,Littering,Abbandono di rifiuti in luogo pubblico,70
+313,RGGSTR07B13D223H,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+314,CRLMSM03B27A669X,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+315,CRLLRT03D16A669D,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+316,LFNPTR03L16A285V,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+317,CRLRNN03C09A669S,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+318,MNTNTS08A19C351G,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+319,PSRMRM04C10A089Z,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+320,TNDPRN49R31D205Q,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+321,BVNYNN51C04F052M,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+322,DLZLRA42T16A757K,Divieto di Sosta,Parcheggio in area non consentita,30
+323,RFUGTR41B02I726T,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+324,CHIPTR52P24G113Q,Stalking,Persecuzione e monitoraggio costante di una persona,650
+325,VCNMDL71R12F205N,Violazione dei Diritti Umani,Violazione intenzionale dei diritti fondamentali,900
+326,VCNDLR73R09F205Y,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+327,SMNCLD70P30I726P,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+328,SMNGCM69A16I726U,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+329,SMNMCL73D10I726N,Accattonaggio Molesto,Richiesta di elemosina in modo insistente,50
+330,TMSRRA70A29I480A,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+331,TMSGGN69H11I480K,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+332,PRTMRN77B05A944I,Bullismo,Aggressione verbale e psicologica contro una persona vulnerabile,300
+333,CRBRND73C13E335S,Truffa,Truffa telefonica con sottrazione di denaro,450
+334,CRBCDD73D06E335Z,Cybercrimine,Accesso non autorizzato a sistemi informatici,500
+335,RSPVVN79M19L049U,Divieto di Sosta,Parcheggio in area non consentita,30
+336,PLTCTL74C04A952R,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+337,RFUCRN69P19A390O,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+338,RFUFLV71C04A390E,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+339,CHIRMN72H09F979I,Sfruttamento del Lavoro Minorile,Utilizzo di minori per lavoro in condizioni abusive,880
+340,VRNDRN70R28F052D,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+341,FLLMBR69H19L840Z,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+342,SNIYLO70R28A783I,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+343,LBDMRG79H30A794Q,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+344,VCNMRN89T20G942Q,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+345,VCNMRN89T20G942Q,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+346,VCNBGD98E12A944Z,Divieto di Sosta,Parcheggio in area non consentita,30
+347,SMNFDN94C09A944Y,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+348,SMNFDN94C09A944Y,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+349,TMSLRC91S28G337R,Divieto di Sosta,Parcheggio in area non consentita,30
+350,TMSPLP92A11L424Y,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+351,SRKPRZ00A19G388N,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+352,SRKMRA02E20G388C,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+353,SRKPLL90R07I829B,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+354,LCHLRD96S24G113F,Divieto di Sosta,Parcheggio in area non consentita,30
+355,PRTLSS94L07G535A,Littering,Abbandono di rifiuti in luogo pubblico,70
+356,PRTLSS94L07G535A,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+357,PRTDCC97H13E281K,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+358,PRTVTR98H04E281C,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+359,RSPMLE02M17A952P,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+360,RSPMTA02A20L840T,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+361,CRMNRN00L23A757X,Divieto di Sosta,Parcheggio in area non consentita,30
+362,CRMSFN01P15E506F,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+363,VRNPQL90S07A662Z,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+364,CHRSLL89P27L424E,Divieto di Sosta,Parcheggio in area non consentita,30
+365,FLLNLN96C31L328C,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+366,FLLMTT97D28L328M,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+367,SNILRT91T18F205F,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+368,FAXSNT50T12A952D,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+369,CHNMRA51L25E783R,Graffitismo,Esecuzione di graffiti su muri pubblici senza permesso,80
+370,RVGSCR53T06E281Q,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+371,BSRFLV44B06E472F,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+372,MNCCSR70S01E281J,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+373,CPRMHL70C14L750E,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+374,BNTLND70M22M082Z,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+375,BNTRMN72L20M082X,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+376,CRMSML69S02H224V,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+377,CRMDRD72B12H224Y,Furto,Furto di oggetti di valore da un'abitazione,300
+378,CRMDRD72B12H224Y,Divieto di Sosta,Parcheggio in area non consentita,30
+379,TNAPSC69A16B519E,Sommossa,Partecipazione a sommosse o disordini pubblici,300
+380,TNASNT69D20B519Z,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+381,CSDLTZ71T07A944H,Rapina,Rapina a mano armata in un negozio,800
+382,CSDLTZ71T07A944H,Sfruttamento del Lavoro Minorile,Utilizzo di minori per lavoro in condizioni abusive,880
+383,GTTMLT72P15G337W,Danneggiamento,Distruzione o danneggiamento di beni pubblici,200
+384,LSGTSC79C23E335H,Furto,Furto di oggetti di valore da un'abitazione,300
+385,GRNCVN90C15B519X,Contraffazione,Produzione e vendita di beni contraffatti,350
+386,GRNPLA93L26M082M,Inquinamento Ambientale,Smaltimento illecito di rifiuti tossici,850
+387,BNTGDN06B26B519J,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+388,BNTMLE03B26B519A,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+389,BNTRNN91S23G388E,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+390,RVGGLI98E06L750T,Assalto,Assalto fisico con lesioni gravi,700
+391,TRRCTN90D26G337Q,Littering,Abbandono di rifiuti in luogo pubblico,70
+392,GLVMDA91R29D643H,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+393,MGNFTN92H30F537C,Divieto di Sosta,Parcheggio in area non consentita,30
+394,MGNMRO94B18G479K,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+395,MGNNZE97E19G479E,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+396,MGNVNA88T02A859U,Molestia Sessuale,Avances o gesti a sfondo sessuale non consensuali,750
+397,PRGFNC95M14B157J,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+398,CRMVNI01M03A509U,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+399,GTTLVN93L27F158C,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+400,GTTSLM89S02B519H,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+401,GTTCCL92M10B519P,Littering,Abbandono di rifiuti in luogo pubblico,70
+402,GTTGLI92S08B519A,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+403,DFRFLV02B16E335S,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+404,DFRPQN00R18F537R,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+405,DFRNVE02R09F537N,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+406,CLBMRA02H01A783K,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+407,NSTSVG94T23D205Z,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+408,SLVMRN00L16F839F,Divieto di Sosta,Parcheggio in area non consentita,30
+409,LSGFNC01T20E281W,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+410,LSGVCN01R30E281D,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+411,LSGGLR02R06L500L,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+412,SLVSNT95P11L219C,Divieto di Sosta,Parcheggio in area non consentita,30
+413,BLZNRN45R11L781X,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+414,DLLSLV47P17D643B,Violazione di Domicilio,Accesso non autorizzato in una proprietà privata,400
+415,CRNRME47D28E202J,Stupro,Violenza sessuale,980
+416,BNTGRN56M08F052W,Littering,Abbandono di rifiuti in luogo pubblico,70
+417,NZVFRS40M10D643O,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+418,LSCWTR51E04L424N,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+419,STRDNT78R28C351T,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+420,PRTLBR71M17D122W,Littering,Abbandono di rifiuti in luogo pubblico,70
+421,FFNTLI70B17G273Z,Rapina,Rapina a mano armata in un negozio,800
+422,LSCGLM71E11D223Q,Abbandono di Minore,Lasciare un minore senza supervisione o assistenza,600
+423,PTNSDR66L13E507V,Aggressione,Aggressione verbale e minacce fisiche,200
+424,MSTRRG63T07D969Z,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+425,SPZRME73H07L682A,Assalto,Assalto fisico con lesioni gravi,700
+426,SPZCRN70S28L682G,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+427,MMEGLL88L10L219B,Divieto di Sosta,Parcheggio in area non consentita,30
+428,CLBLVO87H26A859A,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+429,CLBRNO86C11A859N,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+430,CNNSLV93E16D205V,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+431,MPLDNC92E16L483P,Divieto di Sosta,Parcheggio in area non consentita,30
+432,MPLCMN97H16A952G,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+433,PTNLND85P08D205N,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+434,CMMPLA92P10D969D,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+435,CLBVDN84C27A479L,Truffa,Truffa telefonica con sottrazione di denaro,450
+436,CLBSTN87D27A479U,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+437,SPZCLL91B26D223T,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+438,CTRSRA87M27A089V,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+439,CTRLLD87R24A089V,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+440,SPZGGI88T09H620K,Truffa,Truffa telefonica con sottrazione di denaro,450
+441,SPZVNT89H22H620F,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+442,TRLRNT37M14B429K,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+443,DLLLCU34L04G713J,Littering,Abbandono di rifiuti in luogo pubblico,70
+444,TNTMRC36S23F979V,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+445,MRBFMN34P15A089Z,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+446,LMMFRS36L03E463L,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+447,RGRGPR34T23D205Z,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+448,CCCVLI54E22I754N,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+449,CCCDRN57D08I754R,Traffico di Organi,Vendita o acquisto illegale di organi umani,999
+450,CRTLND60M04G388W,Violenza Domestica,Abusi fisici su un familiare,650
+451,TRVGSI55H27D969Q,Inquinamento Ambientale,Smaltimento illecito di rifiuti tossici,850
+452,TRVFNC58L08D969H,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+453,BNFPRI55E26C342P,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+454,BNFPRI55E26C342P,Graffitismo,Esecuzione di graffiti su muri pubblici senza permesso,80
+455,SGHLIO56B12A669Q,Falsificazione di Documenti,Produzione o utilizzo di documenti falsi,550
+456,SGHVEA54P10A669Z,Prostituzione Minorile,Coinvolgimento di minori in attività di prostituzione,980
+457,TSTLSN55E04E507W,Divieto di Sosta,Parcheggio in area non consentita,30
+458,TSTLVS55A16E507Y,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+459,MRCLTZ55A17H703C,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+460,MRCTTV55E26H703N,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+461,GSCWNN59P25E648T,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+462,RMAMAI62T24F952Q,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+463,DTGSDR77E14A326U,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+464,CCCBRM86T20A944F,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+465,CCCMRN84R15A944U,Truffa,Truffa telefonica con sottrazione di denaro,450
+466,LDRVLI79L06H163J,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+467,LDRMRN78H29L331E,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+468,CRTFDL80L17A509E,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+469,CRTLVI81E15A509M,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+470,CRTFNZ81M09A509X,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+471,RCCNBL79L07A794R,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+472,RCCRSR78D02G535D,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+473,TRVZRR81S24G388S,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+474,FRMRCC76M16L103R,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+475,FRMFST77B10L682T,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+476,BNFMRA75A04E507I,Littering,Abbandono di rifiuti in luogo pubblico,70
+477,SGHSDR80H23F205P,Urinare in Luogo Pubblico,Atti indecenti in luogo pubblico,80
+478,TSTNNZ82C28G224R,Littering,Abbandono di rifiuti in luogo pubblico,70
+479,TSTMTN75M16G942V,Divieto di Sosta,Parcheggio in area non consentita,30
+480,STLLNI76P27F704U,Aggressione,Aggressione verbale e minacce fisiche,200
+481,STLLNI76P27F704U,Divieto di Sosta,Parcheggio in area non consentita,30
+482,TSTMDL81H27E648S,Aggressione,Aggressione verbale e minacce fisiche,200
+483,MRCGGR75E21C342Z,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+484,MRCRNT82P27E463J,Violenza Domestica,Abusi fisici su un familiare,650
+485,GSCCTN80C02L219E,Littering,Abbandono di rifiuti in luogo pubblico,70
+486,FLLLSN76E18L219Y,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+487,MPRGGR78R22C351D,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+488,MPRLSN76M11C351D,Divieto di Sosta,Parcheggio in area non consentita,30
+489,FRNMTT83E31L219L,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+490,CCCDBR07T28A182K,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+491,PGNNLN00E11D223J,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+492,CCCNTN05B08D969Y,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+493,CCCDAA06P11D969A,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+494,RCCLRD98T07D150C,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+495,FRMMRO01P04E648I,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+496,FRMBRT04P27E648P,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+497,BNFSAI96S15E463C,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+498,BNFTTR96M29F952Y,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+499,BNFFMN01L18L219W,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+500,BNFPNI96T07A326V,Truffa,Truffa telefonica con sottrazione di denaro,450
+501,BNFLRT03C05E098P,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+502,TSTPMP01H01G388X,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+503,MRCRSN99M09E648L,Stalking,Persecuzione e monitoraggio costante di una persona,650
+504,CVRDLR08P17E463K,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+505,CVRVNN03B26L328S,Violazione della Proprietà Intellettuale,Copia e distribuzione di contenuti protetti da copyright,500
+506,CVRRRA06S22F704M,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+507,MNTFST00E21A089T,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+508,MNTPCR00L15A089B,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+509,FLLCLO97A24A089O,Assalto,Assalto fisico con lesioni gravi,700
+510,RMABNR03D07F257P,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+511,RMALPA04C26F704P,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+512,RMAGZN02P24E507K,Violazione di Domicilio,Accesso non autorizzato in una proprietà privata,400
+513,RMAGZN02P24E507K,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+514,RMAFTN99A22F257T,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+515,BVNNCL38L09E507O,Divieto di Sosta,Parcheggio in area non consentita,30
+516,GDNNRN48L18D612H,Diffamazione,Diffusione di informazioni false per danneggiare una persona,250
+517,BRGLRZ40A10L103C,Invasione della Privacy,Accesso o divulgazione non autorizzata di informazioni personali,450
+518,PCRRNI59H18D150W,Furto,Furto di oggetti di valore da un'abitazione,300
+519,PLSVNT41E02B429N,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+520,CRLLCN51M16D612X,Tentato Omicidio,Tentativo di uccidere un'altra persona,950
+521,MBRLLE38B08E335D,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+522,BRDLRT48L19E507J,Bullismo,Aggressione verbale e psicologica contro una persona vulnerabile,300
+523,BRDMRO45B10E507E,Traffico di Organi,Vendita o acquisto illegale di organi umani,999
+524,BNLDNT44S25A944D,Estorsione,Richiesta di denaro tramite minacce,750
+525,MLLTMS43S17D704D,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+526,GDNCNZ67H01G482W,Divieto di Sosta,Parcheggio in area non consentita,30
+527,PDNMCL82M08E648Y,Assalto,Assalto fisico con lesioni gravi,700
+528,PDNGRL80L20A757M,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+529,GGGMHL76H01D612K,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+530,GGGNTN74H08B180N,Diffamazione,Diffusione di informazioni false per danneggiare una persona,250
+531,DDEVTR80M21A509O,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+532,DDENBR65R03C573J,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+533,DDEGST66M05A182R,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+534,BNDNTS76P08L103Y,Stalking,Persecuzione e monitoraggio costante di una persona,650
+535,BNDMRK74D22L103Z,Stupro,Violenza sessuale,980
+536,BNDGTN75E31L103B,Bullismo,Aggressione verbale e psicologica contro una persona vulnerabile,300
+537,BNDRFL76A10B429Q,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+538,BNDLCN74P17E098U,Divieto di Sosta,Parcheggio in area non consentita,30
+539,PCRNNI80C29D612V,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+540,PLSVTT63D30A345D,Truffa,Truffa telefonica con sottrazione di denaro,450
+541,CPRFNC79E18B429N,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+542,CPRLLL79C25B429D,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+543,MBRLRT81E26A794Q,Contraffazione,Produzione e vendita di beni contraffatti,350
+544,BVNPTR74P01G942R,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+545,BRDPLA74M10E648W,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+546,BRDTLD76S01I480H,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+547,GFFGLM76H04C352T,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+548,BNLLCN81D01D150E,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+549,BNLSTN64E28F257N,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+550,CCCVTT81P03H199D,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+551,DDEMLI00M03H199C,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+552,BVNPIA03C23A182C,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+553,BNLRNT01A31E281S,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+554,BNLNEE02R25E281I,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+555,BNLNEE02R25E281I,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+556,PDNLRT99B08E507R,Divieto di Sosta,Parcheggio in area non consentita,30
+557,PDNLRT99B08E507R,Littering,Abbandono di rifiuti in luogo pubblico,70
+558,CPRLEO00C23I754M,Abuso di Minore,Violenza o maltrattamento su un minore,990
+559,BVNGLI02C19B354H,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+560,BRDVSC93D11D223E,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+561,DDESDR96M07D223K,Divieto di Sosta,Parcheggio in area non consentita,30
+562,BRDFMN02R07E648A,Divieto di Sosta,Parcheggio in area non consentita,30
+563,BVNDVD01R05L407N,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+564,PDNLND99P13E507F,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+565,PDNPCC00T28E507O,Furto di Identità,Utilizzo illecito dell'identità di un'altra persona,600
+566,PLSSTN97R10A345D,Divieto di Sosta,Parcheggio in area non consentita,30
+567,BNLPLG99C29A757J,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+568,BRDGDE91H08L103N,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+569,DMCFNC00L18A794H,Divieto di Sosta,Parcheggio in area non consentita,30
+570,BVNFLV94E11F052S,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+571,BNDDNL05T26E897K,Graffitismo,Esecuzione di graffiti su muri pubblici senza permesso,80
+572,GGGBGD01L03D612O,Riciclaggio di Denaro,Coinvolgimento in un giro di riciclaggio di denaro,850
+573,MLLVNT94L12G113M,Incendio Doloso,Incendio doloso di un edificio pubblico,900
+574,MLLVNT94L12G113M,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+575,PCRVTR01H01B832I,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+576,BNDPIO97S19G702C,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+577,DDECMN02M11A182J,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+578,ZCCPQL42B22E507K,Divieto di Sosta,Parcheggio in area non consentita,30
+579,BLGLNZ42L30F704C,Littering,Abbandono di rifiuti in luogo pubblico,70
+580,RTLBTL39L22H224D,Littering,Abbandono di rifiuti in luogo pubblico,70
+581,FLCLRZ38T08L736L,Violazione di Domicilio,Accesso non autorizzato in una proprietà privata,400
+582,MEASND42R13B963W,Littering,Abbandono di rifiuti in luogo pubblico,70
+583,VTCMLN67C06L049M,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+584,PNGMRT60B22F205L,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+585,PNGGCM60P23F205A,Inquinamento Ambientale,Smaltimento illecito di rifiuti tossici,850
+586,PCNVVN59L27C573N,Divieto di Sosta,Parcheggio in area non consentita,30
+587,MDALDI62M16E098C,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+588,FLLRNR59R17F839W,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+589,FLLDVG65M16C352Q,Truffa,Truffa telefonica con sottrazione di denaro,450
+590,MCAVRN59S04A757P,Truffa,Truffa telefonica con sottrazione di denaro,450
+591,PNTSDR65C31I452X,Littering,Abbandono di rifiuti in luogo pubblico,70
+592,CRSRCC73D07A794H,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+593,CRSGAI71R25A794V,Divieto di Sosta,Parcheggio in area non consentita,30
+594,RGMCRI70A17G478X,Uso di Linguaggio Offensivo in Pubblico,Insulti o linguaggio osceno in pubblico,60
+595,PRMTMS69T27C933B,Truffa,Truffa telefonica con sottrazione di denaro,450
+596,BRTLBR68M24H223C,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+597,TRBVNZ61E21E897R,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+598,CRSRMN89B15D223L,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+599,CRSMDA93A18A794D,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+600,PLMLPA82D20F257F,Contraffazione,Produzione e vendita di beni contraffatti,350
+601,PLMRMN79H26F257Q,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+602,PLMRMN79H26F257Q,Littering,Abbandono di rifiuti in luogo pubblico,70
+603,CRSLCI93B24F704U,Littering,Abbandono di rifiuti in luogo pubblico,70
+604,CRSRCE91D09E463G,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+605,PLMLRD80C16G999V,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+606,TRBBDT93C13F205O,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+607,TRBBDT93C13F205O,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+608,PNGRLF91B13I829H,Divieto di Sosta,Parcheggio in area non consentita,30
+609,LVNGNR86H15A509W,Assalto,Assalto fisico con lesioni gravi,700
+610,LVNGNR86H15A509W,Stalking,Persecuzione e monitoraggio costante di una persona,650
+611,BRTDMA84E06H223Q,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+612,RGMMTT91A28G478G,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+613,RGMMTT91A28G478G,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+614,TRBLVN83M05E648E,Stalking,Persecuzione e monitoraggio costante di una persona,650
+615,LVNMRN80P30A509I,Littering,Abbandono di rifiuti in luogo pubblico,70
+616,LVNRSM79P20A509W,Littering,Abbandono di rifiuti in luogo pubblico,70
+617,TRBSDR79S04E897N,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+618,PCNDLZ84A04A944U,Stupro,Violenza sessuale,980
+619,PCNSFN88A21C573Y,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+620,PCNLNE84B08C573B,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+621,PLMRND92L03H501W,Divieto di Sosta,Parcheggio in area non consentita,30
+622,FLLLGU80A17F839E,Sequestro di Persona,Rapimento a scopo di riscatto,950
+623,LVNGZN80E04A509C,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+624,PNGLNE89R23F952R,Invasione della Privacy,Accesso o divulgazione non autorizzata di informazioni personali,450
+625,PNGNBR93L04F952E,Littering,Abbandono di rifiuti in luogo pubblico,70
+626,LVNGLI84A28D086F,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+627,MCADNC84T04A757B,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+628,FLLLCL85L31F839E,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+629,FLLLLL85C24C352J,Contraffazione,Produzione e vendita di beni contraffatti,350
+630,MCAFNC83H27E202Q,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+631,BYULLL00D07L328A,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+632,FLLZRA05E18B963B,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+633,RTLSMN05D01A285P,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+634,LVNLCA06A21A509B,Aggressione,Aggressione verbale e minacce fisiche,200
+635,PLMRKE03C20G999U,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+636,BRTFLR08A16H223A,Truffa,Truffa telefonica con sottrazione di denaro,450
+637,BRTFLR08A16H223A,Divieto di Sosta,Parcheggio in area non consentita,30
+638,PLMGDE06A01F257L,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+639,FLLLRI05D01F839M,Estorsione,Richiesta di denaro tramite minacce,750
+640,FLLGTN03D17F839I,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+641,TRBYLO06S13E648M,Uso di Linguaggio Offensivo in Pubblico,Insulti o linguaggio osceno in pubblico,60
+642,SRGSST46P30A794U,Divieto di Sosta,Parcheggio in area non consentita,30
+643,RSSDLM39C25A390G,Littering,Abbandono di rifiuti in luogo pubblico,70
+644,DVZLRD37L20L117T,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+645,PRSGTR66B24E290Q,Frode,Frode finanziaria con documenti falsi,450
+646,PRSBLD65E16E290A,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+647,CPZTST71M29F952G,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+648,MZZFNN73E24A462I,Sommossa,Partecipazione a sommosse o disordini pubblici,300
+649,BRBGNI66H13H501N,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+650,LCCLND76P04B429J,Littering,Abbandono di rifiuti in luogo pubblico,70
+651,CRTDRA65S23B963T,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+652,MPCNZR64A02F052C,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+653,SGLLLE68R24A462Z,Divieto di Sosta,Parcheggio in area non consentita,30
+654,TNTDNC65E23E290T,Divieto di Sosta,Parcheggio in area non consentita,30
+655,VRRRGR67A10L331A,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+656,DVZYND67M20G478A,Sommossa,Partecipazione a sommosse o disordini pubblici,300
+657,LUIPLT71B06D150T,Furto d'Auto,Furto di un veicolo,600
+658,LUINBR68T12D150V,Violazione della Proprietà Intellettuale,Copia e distribuzione di contenuti protetti da copyright,500
+659,CRFGTN64M08H294Y,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+660,PRTCST73L10B963Y,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+661,PRTDRN68T03B963H,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+662,PRSMRK96H23C342D,Contraffazione,Produzione e vendita di beni contraffatti,350
+663,CPZFNC89T25H703C,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+664,PLTGVF92R30G713L,Truffa,Truffa telefonica con sottrazione di denaro,450
+665,PLTMDA88T21G713R,Violenza Domestica,Abusi fisici su un familiare,650
+666,MZZYND95E03I829X,Littering,Abbandono di rifiuti in luogo pubblico,70
+667,SNTMND96R29L117F,Littering,Abbandono di rifiuti in luogo pubblico,70
+668,BRBBGD85E11I754F,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+669,BRBDNL83T06E290R,Littering,Abbandono di rifiuti in luogo pubblico,70
+670,BRBDNL83T06E290R,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+671,MPCRTD87M27A952K,Estorsione,Richiesta di denaro tramite minacce,750
+672,MPCRTD87M27A952K,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+673,TRTCSR98B08F052K,Truffa,Truffa telefonica con sottrazione di denaro,450
+674,MPCBBR86C13I480Q,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+675,TNTSIA85S14L331P,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+676,VRRNTL94S15F158X,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+677,VRRMNC86E12F839B,Invasione della Privacy,Accesso o divulgazione non autorizzata di informazioni personali,450
+678,VRRDZN88H22I480V,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+679,LUIRND93D22F023G,Divieto di Sosta,Parcheggio in area non consentita,30
+680,LUILFA91A05F023O,Stalking,Persecuzione e monitoraggio costante di una persona,650
+681,LUIGCH89R09H703T,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+682,LUILRT89H09E783B,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+683,LUILNS89T19E783K,Divieto di Sosta,Parcheggio in area non consentita,30
+684,PRTGSI90T16F979J,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+685,DVZGRT08P12A479J,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+686,MPCGLL08A13E290S,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+687,VRRDVG08B10D969M,Littering,Abbandono di rifiuti in luogo pubblico,70
+688,VRRGDN06T15D969R,Urinare in Luogo Pubblico,Atti indecenti in luogo pubblico,80
+689,MPCSNT08R13D223H,Sfruttamento della Prostituzione,Gestione di attività di prostituzione forzata,880
+690,FLLLEO42P04G015C,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+691,DLZVDN42H23L840Y,Divieto di Sosta,Parcheggio in area non consentita,30
+692,CNIPLL41B25L103G,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+693,FLELND53M19G015O,Frode,Frode finanziaria con documenti falsi,450
+694,LDVSLV42L17H282O,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+695,VTTPTR47H08H199W,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+696,PLLNSC40L17L328L,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+697,PCCCGR34H15C342A,Uso di Linguaggio Offensivo in Pubblico,Insulti o linguaggio osceno in pubblico,60
+698,SNRGRT62R01H223I,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+699,CPRLRC67D15F537A,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+700,RFFMRO62T24H282X,Furto,Furto di oggetti di valore da un'abitazione,300
+701,FLLLCA70P23G015Q,Aggressione,Aggressione verbale e minacce fisiche,200
+702,CRMLSN59M22I726J,Divieto di Sosta,Parcheggio in area non consentita,30
+703,BRTVVN60R15L781S,Molestia Sessuale,Avances o gesti a sfondo sessuale non consensuali,750
+704,BRTVGN62M01L781V,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+705,MRNCLO66A27H163G,Truffa,Truffa telefonica con sottrazione di denaro,450
+706,FCCRST62M21L840K,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+707,VTTFNN64M11E098W,Estorsione,Richiesta di denaro tramite minacce,750
+708,MSSSRA61S26A285P,Riciclaggio di Denaro,Coinvolgimento in un giro di riciclaggio di denaro,850
+709,MSSNTN58T19A285P,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+710,BNNMRC62T23E281I,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+711,NVRWTR60S10A794K,Stalking,Persecuzione e monitoraggio costante di una persona,650
+712,NVRWTR60S10A794K,Littering,Abbandono di rifiuti in luogo pubblico,70
+713,NVRLNS59M03A794Y,Frode,Frode finanziaria con documenti falsi,450
+714,GCBLCU60M01G942S,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+715,GCBRML61A03G942T,Rapina,Rapina a mano armata in un negozio,800
+716,TDSDMN59S24C342W,Aggressione,Aggressione verbale e minacce fisiche,200
+717,PCCMRZ63P26B429W,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+718,PCCMRZ63P26B429W,Urinare in Luogo Pubblico,Atti indecenti in luogo pubblico,80
+719,FCCVTR63M16D704X,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+720,VTTNLT86P07E098B,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+721,MRNSNT84P29H163Z,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+722,MRNDGS86P15H163X,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+723,MRNLVR86R16H163G,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+724,TDSDNI93A03C342G,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+725,TDSLSN93B23C342M,Littering,Abbandono di rifiuti in luogo pubblico,70
+726,BRTLPA82T16L781C,Contraffazione,Produzione e vendita di beni contraffatti,350
+727,BRTLCL80B29L781G,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+728,BRTLVN81T24L736A,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+729,BRTLRT81C13L736S,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+730,PCCMRC81M13G999F,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+731,PCCMRC81M13G999F,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+732,MSSPLA82P22A285U,Intimidazione,Comportamento minaccioso verso un'altra persona,350
+733,PRTMSM83R18B745Z,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+734,FCCMRM83E05D704V,Divieto di Sosta,Parcheggio in area non consentita,30
+735,MRNRZO85H17B519W,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+736,RFFVSC81S21D810P,Accattonaggio Molesto,Richiesta di elemosina in modo insistente,50
+737,FLLDLU89P29G113T,Cybercrimine,Accesso non autorizzato a sistemi informatici,500
+738,NVRSNT79D26E290T,Graffitismo,Esecuzione di graffiti su muri pubblici senza permesso,80
+739,ZMPGGR79E25A669M,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+740,FCCDNT82A25L500U,Violenza Domestica,Abusi fisici su un familiare,650
+741,FCCSNT79T17L840O,Truffa,Truffa telefonica con sottrazione di denaro,450
+742,FCCPNI81E03L840E,Divieto di Sosta,Parcheggio in area non consentita,30
+743,FCCGMN80C08L840F,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+744,FLLNFR93E25G113D,Danneggiamento,Distruzione o danneggiamento di beni pubblici,200
+745,SNRDGS79A10H223P,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+746,CPRPMR88P07F537H,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+747,CPRSRG86A12F537A,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+748,FCCQRN83M17A757Y,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+749,FCCFDR79D02A757W,Violenza Domestica,Abusi fisici su un familiare,650
+750,NVRGNI81H07G388V,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+751,SNRCLR83L21H223B,Rapina,Rapina a mano armata in un negozio,800
+752,SNRCLR83L21H223B,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+753,FCCPRZ08S02L840Z,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+754,FCCVCN01L13D548I,Truffa,Truffa telefonica con sottrazione di denaro,450
+755,RFFLVR99C19D542Q,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+756,CNIDRD04C16G482B,Molestia Sessuale,Avances o gesti a sfondo sessuale non consensuali,750
+757,MRNFNC08P22C351L,Sfruttamento della Prostituzione,Gestione di attività di prostituzione forzata,880
+758,VTTCRN08H18E098P,Littering,Abbandono di rifiuti in luogo pubblico,70
+759,FCCGLL04A06L840T,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+760,FCCVDN04T29E098G,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+761,FCCCSR05T11H620T,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+762,VTTNNZ08R22E098C,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+763,MRNCTN06M22B519W,Littering,Abbandono di rifiuti in luogo pubblico,70
+764,FCCCSR04S16D542F,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+765,BRTDLZ01A24L781J,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+766,ZMPRSL99B13F537Y,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+767,TDSDLF05P16G273N,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+768,SNRGZN01A16D548D,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+769,RCHVTI39C21B180Z,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+770,GRNCST40H10G273I,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+771,SBRCNL42A08I829F,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+772,SBRCNL42A08I829F,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+773,RNIRND46P04H282C,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+774,PRTVGN43R24I754X,Furto,Furto di oggetti di valore da un'abitazione,300
+775,DFRGDU52T31G224D,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+776,PRTRME63H15G535B,Littering,Abbandono di rifiuti in luogo pubblico,70
+777,PRTGAI59E24G535W,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+778,SEUCMN60L16G713B,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+779,SCRMLL64H10D223A,Divieto di Sosta,Parcheggio in area non consentita,30
+780,DLSSRL58S16E463M,Littering,Abbandono di rifiuti in luogo pubblico,70
+781,GNCMNL59S08B354V,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+782,PCRGTR80M11B157H,Divieto di Sosta,Parcheggio in area non consentita,30
+783,PCRPLG80S22B157V,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+784,PCRMLA80E19B157Y,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+785,DFRLNE93H25L781R,Accattonaggio Molesto,Richiesta di elemosina in modo insistente,50
+786,GRILCN86E02D612N,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+787,PCRSDR79H15I480I,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+788,RNIMRO86C07L500Q,Stalking,Persecuzione e monitoraggio costante di una persona,650
+789,LCNFMN91M27H501L,Estorsione,Richiesta di denaro tramite minacce,750
+790,MRVLMO89L17A462C,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+791,GRIVTR93E19L117F,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+792,GRIVTT92B26E202D,Sfruttamento della Prostituzione,Gestione di attività di prostituzione forzata,880
+793,DLSMRA84H12E463S,Bracconaggio,Caccia illegale di animali protetti,700
+794,PRTDNI83R31L378M,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+795,CPRLTR82C04A462V,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+796,CPRDRO79R23A462M,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+797,GNCGTN87M07E281O,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+798,LNZPCR06T04B157A,Littering,Abbandono di rifiuti in luogo pubblico,70
+799,LNZRGR05S27I480W,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+800,RNIDNC07H15E463A,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+801,GRILLL03D09B180P,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+802,PCRPLM07T14L500X,Divieto di Sosta,Parcheggio in area non consentita,30
+803,PCRPLM07T14L500X,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+804,RNIDRN05B01I480S,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+805,RNIGRT02T11A271Z,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+806,RNILRC05S01A271N,Contraffazione,Produzione e vendita di beni contraffatti,350
+807,GNCRND07R02H199B,Uso di Linguaggio Offensivo in Pubblico,Insulti o linguaggio osceno in pubblico,60
+808,GNCGPR04E29H223N,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+809,GNCLSN05T18H223A,Aggressione,Aggressione verbale e minacce fisiche,200
+810,FSSLND47T21A509N,Discriminazione,Trattamento ingiusto basato su razza genere o religione,450
+811,RTANLN57L31A662H,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+812,MNRRND54H24D612S,Frode,Frode finanziaria con documenti falsi,450
+813,FCCFNC59H13F158T,Furto,Furto di oggetti di valore da un'abitazione,300
+814,RGRLND43B28A859E,Riciclaggio di Denaro,Coinvolgimento in un giro di riciclaggio di denaro,850
+815,CRTGRN51T30F839N,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+816,FNCTNA51S29F704U,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+817,FNCGLN50H23F704U,Rissa,Partecipazione a una rissa pubblica,400
+818,BRGRNI37R23A479P,Riciclaggio di Denaro,Coinvolgimento in un giro di riciclaggio di denaro,850
+819,BRGRNI37R23A479P,Divieto di Sosta,Parcheggio in area non consentita,30
+820,DTLZRR58C08G888V,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+821,DTLMLI57R29G888B,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+822,RGGRNN51P20E625D,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+823,CHRSLV67D14G999D,Spaccio di Droga,Traffico e distribuzione di sostanze stupefacenti,950
+824,DDTMRN79B25G015P,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+825,RGRPLT72D26F952J,Littering,Abbandono di rifiuti in luogo pubblico,70
+826,RTABRC78P13L328K,Uso di Linguaggio Offensivo in Pubblico,Insulti o linguaggio osceno in pubblico,60
+827,RTALSS74M06L328G,Violenza Domestica,Abusi fisici su un familiare,650
+828,CLNSRL77B01G999Y,Furto,Furto di oggetti di valore da un'abitazione,300
+829,CRTVGN76A01A285F,Graffitismo,Esecuzione di graffiti su muri pubblici senza permesso,80
+830,CRTFMN75H09A285C,Urinare in Luogo Pubblico,Atti indecenti in luogo pubblico,80
+831,FCCFST82C09F158C,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+832,FCCCSM81L10F158X,Divieto di Sosta,Parcheggio in area non consentita,30
+833,FCCMLT83H05F158G,Sfruttamento del Lavoro Minorile,Utilizzo di minori per lavoro in condizioni abusive,880
+834,CLNTSC76P11E625A,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+835,CHRBDT00H24L483H,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+836,CHRTMS95D21A662G,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+837,CHRFRS94E31A662K,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+838,BRGSMN95A25I726J,Divieto di Sosta,Parcheggio in area non consentita,30
+839,RGRLND95A16B832X,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+840,FNCTSC94C03A345V,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+841,RTACSG97E11G888I,Divieto di Sosta,Parcheggio in area non consentita,30
+842,RTARND94B25D612C,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+843,RTARND94B25D612C,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+844,CLNLTZ97H01I829Z,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+845,CLNMDE98H04I829I,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+846,DTLCSR98P10B745A,Littering,Abbandono di rifiuti in luogo pubblico,70
+847,BNFRND02M02C351C,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+848,VLZSTN00A14L483G,Estorsione,Richiesta di denaro tramite minacce,750
+849,DTLLRZ96M31L736M,Sfruttamento della Prostituzione,Gestione di attività di prostituzione forzata,880
+850,CRTBND96B10G999Q,Aggressione,Aggressione verbale e minacce fisiche,200
+851,CHRMRZ94S25A859G,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+852,RGRCNN01H19G113I,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+853,RTALRZ00B16G702N,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+854,CLNMRN97S26L328J,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+855,CLNMMI94S10D612H,Stalking,Persecuzione e monitoraggio costante di una persona,650
+856,FSSCRL02R24F979K,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+857,MRTCHR39D13L103E,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+858,CNTLRZ59L19D150D,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+859,BGNGNE54C17F257Y,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+860,BGNDLA54P08F257A,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+861,CLOBGI40C08C933N,Violazione di Domicilio,Accesso non autorizzato in una proprietà privata,400
+862,VVLDRS54P28G888B,Sfruttamento della Prostituzione,Gestione di attività di prostituzione forzata,880
+863,VVLDRS54P28G888B,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+864,BRPFTN61P02G713D,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+865,MRCYNN52C04E472V,Frode,Frode finanziaria con documenti falsi,450
+866,MRNBDT48D22A089N,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+867,VLLLDN59S12F537E,Divieto di Sosta,Parcheggio in area non consentita,30
+868,VLLMLN59L28F537J,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+869,SLASRG40L18E507T,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+870,FLEGIO40T27I480K,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+871,FLETNA41B23I480N,Truffa,Truffa telefonica con sottrazione di denaro,450
+872,FLETNA41B23I480N,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+873,PDSRMO43T09E783U,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+874,PDSGST45R03E783Q,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+875,MZZVGL41L16B180X,Frode,Frode finanziaria con documenti falsi,450
+876,MZZGAI39H14B180E,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+877,CSMVGN41A28H703X,Littering,Abbandono di rifiuti in luogo pubblico,70
+878,BGNRNL78P26F257V,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+879,MNTVIO69T19L736X,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+880,BGNLCN74C07A952Z,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+881,BRPSLV81A15G713Z,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+882,BRPCRI83E26G713N,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+883,BRPMRM81T23G713W,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+884,BRPLND81P19F023K,Divieto di Sosta,Parcheggio in area non consentita,30
+885,CRNLNS74P28B832I,Divieto di Sosta,Parcheggio in area non consentita,30
+886,BRBNRN77D16B354Q,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+887,PDSLSU71P24L500O,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+888,PDSCLD73D22L500I,Assalto,Assalto fisico con lesioni gravi,700
+889,PDSCTN69R14L500K,Littering,Abbandono di rifiuti in luogo pubblico,70
+890,VLLFRZ82B12A859F,Divieto di Sosta,Parcheggio in area non consentita,30
+891,VLLCSN81S03A859G,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+892,MZZVTT64S02B180K,Littering,Abbandono di rifiuti in luogo pubblico,70
+893,BNCMRT71L05B354K,Usura,Prestito di denaro a tassi di interesse usurai,720
+894,FLETEA67M24E290B,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+895,FLETEA67M24E290B,Inquinamento Ambientale,Smaltimento illecito di rifiuti tossici,850
+896,VLLGVF82M24D969R,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+897,VLLRSL81D14D122I,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+898,VVLNLN78R21G888W,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+899,CLOVNC59A05L682P,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+900,PDSRSR64T08F023B,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+901,MNTLBA93B21D612C,Littering,Abbandono di rifiuti in luogo pubblico,70
+902,BGNSAI00E29G702K,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+903,BGNVTR94P21A794N,Intimidazione,Comportamento minaccioso verso un'altra persona,350
+904,FRNSRN00S30H620B,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+905,BRPMRO99C06E897X,Violazione di Domicilio,Accesso non autorizzato in una proprietà privata,400
+906,MNTPRD01E19L331V,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+907,FRNZEI99C06E472L,Sommossa,Partecipazione a sommosse o disordini pubblici,300
+908,CLODLU97C08F257I,Furto,Furto di oggetti di valore da un'abitazione,300
+909,BRBDRD03R15D150O,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+910,BRBFLV03T06D150L,Stupro,Violenza sessuale,980
+911,BNCLRZ89A20C351E,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+912,BNCGTA98A05I452E,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+913,BNCDCC99M27A757E,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+914,FLESNO90M02H282Y,Divieto di Sosta,Parcheggio in area non consentita,30
+915,BRBFMN03L28G337L,Cybercrimine,Accesso non autorizzato a sistemi informatici,500
+916,CNTSLN02A05D223X,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+917,CNTTRS02A22D223B,Littering,Abbandono di rifiuti in luogo pubblico,70
+918,VLLDLD03H25G015O,Possesso di Droga,Possesso di sostanze stupefacenti illegali,400
+919,VLLLND01R15F023U,Littering,Abbandono di rifiuti in luogo pubblico,70
+920,VLLLDA02A13F023S,Divieto di Sosta,Parcheggio in area non consentita,30
+921,PDSBNL01C24D150Z,Violazione di Domicilio,Accesso non autorizzato in una proprietà privata,400
+922,MRNVNI97B18F839S,Divieto di Sosta,Parcheggio in area non consentita,30
+923,MRCSND97M13D223W,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+924,MRCCLN96S16D223B,Littering,Abbandono di rifiuti in luogo pubblico,70
+925,MRNTTV00D27D969F,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+926,DLMGNR44D27A326M,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+927,CRRDRN47R15E897L,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+928,CRRDRN47R15E897L,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+929,BLCLLE38T10H223J,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+930,BRRDNI45R03A944P,Falsificazione di Documenti,Produzione o utilizzo di documenti falsi,550
+931,TRLYLO54D21M082Z,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+932,BRTSRL66B12E472Q,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+933,VSNBTL65L21A509E,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+934,VRTMSC76P05H224Z,Violenza Domestica,Abusi fisici su un familiare,650
+935,CMLTMS66L01F205U,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+936,BNCLRT66C20F052X,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+937,FRRSLV76C25B745D,Divieto di Sosta,Parcheggio in area non consentita,30
+938,FRRDFN76T08B745C,Divieto di Sosta,Parcheggio in area non consentita,30
+939,CTNWTR65E08I726F,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+940,GLZCMN65L12D223Z,Divieto di Sosta,Parcheggio in area non consentita,30
+941,SPGDLE68L16E098Z,Sommossa,Partecipazione a sommosse o disordini pubblici,300
+942,NDEDMA75C11E506J,Stalking,Persecuzione e monitoraggio costante di una persona,650
+943,MSTFST84B29I829A,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+944,FRRFDL98A13B354R,Divieto di Sosta,Parcheggio in area non consentita,30
+945,FRRPSC94T28B354T,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+946,CMLRMR84E29F205V,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+947,BLCSCN87R20L840U,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+948,CNSDNI85H03D548S,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+949,RCICSN84S02A479D,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+950,RCIGRL85M20A479G,Littering,Abbandono di rifiuti in luogo pubblico,70
+951,RCIMRT86L21A479G,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+952,MSTMLL88E30E897K,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+953,CCGFLC92A17C632W,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+954,PRSJCP85S30G337E,Riciclaggio di Denaro,Coinvolgimento in un giro di riciclaggio di denaro,850
+955,PRSTLI84T26G337U,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+956,PRSGLL88P22G337T,Aggressione,Aggressione verbale e minacce fisiche,200
+957,GGNDNL85R17G535E,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+958,NDEMRN94T16E506W,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+959,BNCNBR90L20F052O,Intimidazione,Comportamento minaccioso verso un'altra persona,350
+960,GLZCLS84M02D223G,Littering,Abbandono di rifiuti in luogo pubblico,70
+961,BRGDLB94S20E897Z,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+962,MSTBGD02T06H223S,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+963,SPGTSC08C06E715J,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+964,SPGCNL08P29E715P,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+965,CNNBNR05R14D548J,Truffa,Truffa telefonica con sottrazione di denaro,450
+966,CNNSNT05A22D548S,Sfruttamento del Lavoro Minorile,Utilizzo di minori per lavoro in condizioni abusive,880
+967,RCIGBB07L25I726B,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+968,CTNVCN08B05L840K,Aggressione,Aggressione verbale e minacce fisiche,200
+969,BLCGNT05S16G999W,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+970,PRSMIA04T01I726U,Frode,Frode finanziaria con documenti falsi,450
+971,GLZGTR05H26H199H,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+972,CTNNDR08D28I829M,Riciclaggio di Denaro,Coinvolgimento in un giro di riciclaggio di denaro,850
+973,BRGLSS05P24F205M,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+974,DLPVNT41T24L049X,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+975,PCLFNC42L09F839Q,Littering,Abbandono di rifiuti in luogo pubblico,70
+976,PCLFNC42L09F839Q,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+977,SRNRSL35D21B745P,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+978,SRNRSL35D21B745P,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+979,BLRLVS39E15L840C,Cybercrimine,Accesso non autorizzato a sistemi informatici,500
+980,BLRLVS39E15L840C,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+981,BLLRGN47S22G999W,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+982,BLRTLL62P15L840S,Divieto di Sosta,Parcheggio in area non consentita,30
+983,RBNLCU66S25H294N,Frode,Frode finanziaria con documenti falsi,450
+984,CDULGO72B27L483H,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+985,SCRLTR59B06H282W,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+986,SLVCLD60R19B963S,Incendio Doloso,Incendio doloso di un edificio pubblico,900
+987,BRTFDL61P25B354G,Littering,Abbandono di rifiuti in luogo pubblico,70
+988,PRZFNZ61T19H703U,Truffa,Truffa telefonica con sottrazione di denaro,450
+989,LBRGLM60H30G224P,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+990,LBRGLM60H30G224P,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+991,PPIMCL60S08H282G,Littering,Abbandono di rifiuti in luogo pubblico,70
+992,PPIZRA61M27H282S,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+993,SCLMRO61B15H501Y,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+994,BLRRTD85A25H294T,Rapina,Rapina a mano armata in un negozio,800
+995,BLRSNT81L17H501I,Estorsione,Richiesta di denaro tramite minacce,750
+996,RBNBND87T10E715A,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+997,RBNCTN86C05L840G,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+998,BVODMN82P30B354M,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+999,BVOGPP79H05B745R,Abuso di Minore,Violenza o maltrattamento su un minore,990
+1000,BVOVGN79L16H282W,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+1001,BVOVVN80L16H282K,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+1002,CRMFNZ88M16L117Y,Contraffazione,Produzione e vendita di beni contraffatti,350
+1003,CRMFNZ88M16L117Y,Littering,Abbandono di rifiuti in luogo pubblico,70
+1004,SCRDVG90T02L483M,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1005,SLVLSN81A24A182K,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+1006,SLVCST79L10A182H,Aggressione,Aggressione verbale e minacce fisiche,200
+1007,BRTRLF81M08L219W,Invasione della Privacy,Accesso o divulgazione non autorizzata di informazioni personali,450
+1008,BLZLRT89B17B354K,Furto,Furto di oggetti di valore da un'abitazione,300
+1009,BLZFMN89B13L736W,Littering,Abbandono di rifiuti in luogo pubblico,70
+1010,BLZMNI92H12L736K,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+1011,PRZVVN86B19B745N,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+1012,LBRMNI81C23G273I,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+1013,LBRRNN80R02G273Q,Bullismo,Aggressione verbale e psicologica contro una persona vulnerabile,300
+1014,LBRMRA82D12F839L,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1015,VRTMRT82S07E897X,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+1016,SCLFLC79M17I754A,Stalking,Persecuzione e monitoraggio costante di una persona,650
+1017,BLRPPP03C23F205P,Littering,Abbandono di rifiuti in luogo pubblico,70
+1018,RBNRMN03D17E506I,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+1019,BVOBRN02A26B963G,Aggressione,Aggressione verbale e minacce fisiche,200
+1020,BVONLT02E28A182K,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+1021,BVONZE03S02G482R,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+1022,CRMTSC04P26H282T,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+1023,CRMGDU06C17B354V,Usura,Prestito di denaro a tassi di interesse usurai,720
+1024,SCRCVN03L03A669A,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1025,BRTVTT99B06L750I,Schiamazzi Notturni,Rumore molesto in orari notturni,50
+1026,BRTLIA99A29L219X,Violenza Domestica,Abusi fisici su un familiare,650
+1027,PRZSRA07D20I754W,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+1028,DMCBRC02M23B354J,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+1029,LBRMRC06R31E472A,Aggressione,Aggressione verbale e minacce fisiche,200
+1030,SGRRNN06C16H501U,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+1031,VRTMRL06S15L840K,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+1032,VRTMRL06S15L840K,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1033,SCLMCL06H04F205Y,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+1034,STRPSC53T27F023C,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+1035,FRFCLL53P08G482W,Contraffazione,Produzione e vendita di beni contraffatti,350
+1036,FRNRLN49B26F023E,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1037,BRSCDD38R05C573C,Divieto di Sosta,Parcheggio in area non consentita,30
+1038,BRSLSU35D29C573N,Divieto di Sosta,Parcheggio in area non consentita,30
+1039,CDSGDL47R19D086N,Littering,Abbandono di rifiuti in luogo pubblico,70
+1040,TRNMGN51C10B832K,Frode Fiscale,Evasione fiscale o dichiarazioni false,650
+1041,VNOSLV40C08B180Q,Divieto di Sosta,Parcheggio in area non consentita,30
+1042,DRADIA54A16I829B,Riciclaggio di Denaro,Coinvolgimento in un giro di riciclaggio di denaro,850
+1043,DRAQRN54H04I829Z,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+1044,DRAQRN54H04I829Z,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+1045,DRAMRK56E03I829K,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+1046,DRAMND57E15I829X,Corruzione,Accettazione o offerta di tangenti a funzionari pubblici,780
+1047,SRNRCC69H01E715T,Divieto di Sosta,Parcheggio in area non consentita,30
+1048,SRNCTN73C10E715K,Littering,Abbandono di rifiuti in luogo pubblico,70
+1049,GLLVDN70E01F704Y,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1050,GLLSRA75B19E648M,Stalking,Persecuzione e monitoraggio costante di una persona,650
+1051,FRNLSE71B09G482O,Frode,Frode finanziaria con documenti falsi,450
+1052,FRNGLL73M21G337O,Spaccio di Droga,Traffico e distribuzione di sostanze stupefacenti,950
+1053,BRSGBR70D07L117S,Divieto di Sosta,Parcheggio in area non consentita,30
+1054,BRSRMN76M16H620D,Divieto di Sosta,Parcheggio in area non consentita,30
+1055,LLSDNL73C17F205X,Vandalismo,Danneggiamento intenzionale di proprietà altrui,250
+1056,BLDTVN71S29C573M,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1057,BLDGZZ72T08C573X,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1058,BLDGZN72H25C632G,Furto di Identità,Utilizzo illecito dell'identità di un'altra persona,600
+1059,TRNSVR70B15F023M,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+1060,VNOGDI72H30L424W,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1061,VNOGRD70S22H224G,Littering,Abbandono di rifiuti in luogo pubblico,70
+1062,DRAMRT76L19G999O,Urinare in Luogo Pubblico,Atti indecenti in luogo pubblico,80
+1063,DRAMSM76L26G999G,Abuso di Minore,Violenza o maltrattamento su un minore,990
+1064,LLSNTL96L08F537X,Frode,Frode finanziaria con documenti falsi,450
+1065,BRSLDL90S09H199T,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+1066,BRSLDL90S09H199T,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+1067,FRNCTN93T20E507Y,Divieto di Sosta,Parcheggio in area non consentita,30
+1068,FRNCVN92L04F257N,Sfruttamento del Lavoro Minorile,Utilizzo di minori per lavoro in condizioni abusive,880
+1069,BRSCTN06M06A345S,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+1070,CMLCML02H28E506V,Violenza Domestica,Abusi fisici su un familiare,650
+1071,CDSLRC89T01G713K,Vendita Non Autorizzata,Vendita di beni senza licenza,100
+1072,FRNMRT97T23L328X,Disturbo della Quieta Pubblica,Disturbo di eventi pubblici con rumori o comportamenti molesti,120
+1073,BRSCSR97A12G535A,Divieto di Sosta,Parcheggio in area non consentita,30
+1074,BRGTSC99R05H282L,Bullismo,Aggressione verbale e psicologica contro una persona vulnerabile,300
+1075,CMLVGL02M25E506G,Contraffazione,Produzione e vendita di beni contraffatti,350
+1076,CMLVGL02M25E506G,Guida con Telefono in Mano,Utilizzo del telefono alla guida,120
+1077,SRNMHL93M20D612C,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1078,SRNNGL90S05D612C,Aggressione,Aggressione verbale e minacce fisiche,200
+1079,VNOMND98T28L424I,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1080,FRFRFL97B02D150W,Aggiotaggio,Manipolazione dei prezzi sul mercato finanziario,800
+1081,BRSNTS94L15L840W,Fumo in Aree Non Consentite,Fumo in aree in cui è vietato,30
+1082,LLSLSN97T06F205N,Divieto di Sosta,Parcheggio in area non consentita,30
+1083,BLDGTN95R26L750G,Pirateria Informatica,Distribuzione di contenuti digitali piratati,350
+1084,BLDGTN95R26L750G,Mancato Rispetto dei Limiti di Velocità,Superamento dei limiti di velocità alla guida,150
+1085,CDSRSN97P21D542Q,Divieto di Sosta,Parcheggio in area non consentita,30
+1086,FRNGDN96C27E507F,Divieto di Sosta,Parcheggio in area non consentita,30

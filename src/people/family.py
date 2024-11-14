@@ -8,16 +8,20 @@ class Family:
         self.family_root = family_root
         self.partner = None
         self.children: list[Person] = []
+        self.family_residence = generator.get_city(family_root.city)
+        self.family_root.residence = self.family_residence
     
     def add_partner(self, partner: Person | None = None):
         if partner:
             self.partner = partner
+            self.partner.residence = self.family_residence
         else:
             self.partner = Person(
                 generator=self.generator,
                 age=self.generator.get_age(similar_to=int(self.family_root.age), n=2),
                 gender='F' if self.family_root.gender == 'M' else 'M',
-                city=self.generator.get_city(self.family_root.city)
+                city=self.generator.get_city(self.family_root.city),
+                residence=self.family_residence
             )
         self.partner.set_new_family(self)
     
@@ -37,7 +41,8 @@ class Family:
         child = Person(
             generator=self.generator,
             age=age,
-            city=self.family_root.city,
+            city=self.family_residence,
+            residence=self.family_residence,
             last_name=self.family_root.last_name if self.family_root.gender == 'M' else self.partner.last_name
         )
         child.set_original_family(self)
@@ -61,3 +66,6 @@ class Family:
         partner_str = f"Partner: {self.partner}" if self.partner else "No partner"
         children_str = "\n".join([f"Child: {child}" for child in self.children])
         return f"{family_root_str}\n{partner_str}\nChildren:\n{children_str}"
+    
+    def __repr__(self) -> str:
+        return self.__str__()

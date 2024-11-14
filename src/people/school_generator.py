@@ -11,7 +11,7 @@ class School:
         return self.name
     
     def __repr__(self):
-        return self.name
+        return self.__str__()
 
 class SchoolGenerator:
     """
@@ -35,7 +35,7 @@ class SchoolGenerator:
         return [p for p in lst if AgeGroup.MIDDLE_CHILD <= p.age.group <= AgeGroup.LATE_YOUNG_ADULT]
     
     def _generate_school(self):
-        cities = {p.city for p in self.people}
+        cities = {p.residence for p in self.people}
         categories = ["Scuola Elementare", "Scuola Media", "Scuola Superiore", "Università"]
         templates = ["Scuola Elementare di {0}", "Scuola Media di {0}", "Scuola Superiore di {0}", "Università di {0}"]
 
