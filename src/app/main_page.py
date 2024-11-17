@@ -4,7 +4,6 @@ import asyncio
 from chatbot.graph import *
 from langchain_openai import ChatOpenAI
 from langchain_community.graphs import Neo4jGraph
-from dotenv import load_dotenv, find_dotenv
 from chatbot.graph import (
     calculate_risk_coefficients,
     car_analysis,
@@ -17,11 +16,14 @@ from chatbot.query_generator import create_query_generator
 from chatbot.caller import Caller
 from langgraph.prebuilt import ToolNode
 from langgraph.checkpoint.memory import MemorySaver
-from langgraph.graph import END, START, StateGraph
+from langgraph.graph import StateGraph
 from uuid import uuid4
 
-load_dotenv(find_dotenv())
-DB = Neo4jGraph()
+DB = Neo4jGraph(
+    url=st.secrets["NEO4J_URI"],
+    user=st.secrets["NEO4J_USERNAME"],
+    password=st.secrets["NEO4J_PASSWORD"]
+)
 
 def generate_thread_id():
     return str(uuid4())
@@ -30,7 +32,8 @@ def compile_guardian(session_id: str):
     global DB
     llm = ChatOpenAI(
         model="gpt-4o",
-        temperature=0
+        temperature=0,
+        api_key=st.secrets["OPENAI_API_KEY"]
     )
     picture_analysis = PictureAnalyzer(llm).create_picture_analyzer()
     query_gen = create_query_generator(llm, DB)

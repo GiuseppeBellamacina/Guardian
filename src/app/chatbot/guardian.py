@@ -3,7 +3,6 @@ from langchain_core.prompts import (
     MessagesPlaceholder
 )
 from langchain_openai import ChatOpenAI
-from langchain_core.output_parsers import JsonOutputParser
 
 class Guardian():
     def __init__(self, llm: ChatOpenAI, tools: list):

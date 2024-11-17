@@ -1,12 +1,6 @@
 import streamlit as st
 import base64
 import asyncio
-from langchain_core.messages import HumanMessage
-from langchain_core.output_parsers import JsonOutputParser
-from langchain_openai import ChatOpenAI
-from dotenv import load_dotenv, find_dotenv
-
-load_dotenv(find_dotenv())
 
 async def call(image):
     events = st.session_state.model.astream(
@@ -18,7 +12,7 @@ async def call(image):
     st.session_state.snap = st.session_state.model.get_state(st.session_state.config).values
     return response
 
-st.set_page_config(page_icon=":shield:")
+st.set_page_config(page_icon="👮‍♂️", page_title="Guardian")
 st.title("Caricamento immagini")
 
 cols = st.columns(2, gap="large")
