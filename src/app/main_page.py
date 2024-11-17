@@ -21,7 +21,7 @@ from uuid import uuid4
 
 DB = Neo4jGraph(
     url=st.secrets["NEO4J_URI"],
-    user=st.secrets["NEO4J_USERNAME"],
+    username=st.secrets["NEO4J_USERNAME"],
     password=st.secrets["NEO4J_PASSWORD"]
 )
 
