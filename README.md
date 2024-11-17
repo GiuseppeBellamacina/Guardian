@@ -1,13 +1,20 @@
 # Guardian
 
-**Guardian** è un avanzato **ChatBot** progettato per supportare le **Forze dell'Ordine**, fornendo loro informazioni critiche e tempestive riguardanti individui sotto investigazione. Grazie all'integrazione con **LangChain** e **Neo4j**, è in grado di accedere a dati sensibili e fornirli in tempo reale, rendendo il processo investigativo più rapido ed efficiente.
+**Guardian** è un avanzato **ChatBot** con supporto **MultiModale** progettato per aiutare le **Forze dell'Ordine**, fornendo informazioni critiche e tempestive riguardanti individui e veicoli fermati durante un posto di blocco. Grazie all'integrazione con **LangChain**, **LangGraph** e **Neo4j**, è in grado di accedere a dati sensibili e fornirli in tempo reale, rendendo il processo di identificazione e verifica più rapido ed efficiente.
 
-Le sue principali funzionalità includono:
+## Funzionalità principali
 
-- Residenza: Identificazione e conferma dei luoghi di residenza di individui, utile per localizzare e monitorare movimenti.
-- Precedenti penali: Accesso a informazioni sui precedenti penali, per supportare le indagini su crimini passati e possibili recidive.
-- Elenchi di persone ricercate: Verifica della presenza di una persona in elenchi ufficiali di ricercati, fornendo dati aggiornati su individui sospetti o latitanti.
+1. **Precedenti penali**  
+   Accesso immediato a informazioni sui precedenti penali di un individuo, inclusa la presenza di condanne o reati pregressi.
 
-L'utilizzo di **GraphRAG** permette al sistema di navigare in modo altamente efficiente tra grandi moli di dati, sfruttando un approccio di Retrieval-Augmented Generation (RAG) basato su grafi. Questo migliora significativamente la capacità del ChatBot di fornire risposte contestualizzate e precise, attingendo da un vasto insieme di informazioni correlate in tempo reale.
+2. **Dati anagrafici**  
+   Recupero di informazioni personali, come nome, cognome, data di nascita e residenza.
 
-Il sistema è progettato per lavorare in modo fluido e intuitivo, riducendo i tempi di ricerca manuale e ottimizzando l'accesso alle informazioni vitali. Guardian rappresenta un alleato indispensabile per le Forze dell'Ordine, migliorando l'efficienza delle operazioni investigative e contribuendo alla sicurezza pubblica.
+3. **Dati veicolo**  
+   Accesso a informazioni sul veicolo, come modello, targa, proprietario, RCA e scadenza della revisione. Inoltre, il sistema è in grado di ottenere i dati di un veicolo direttamente dalle immagini, utilizzando tecnologie avanzate di riconoscimento.
+
+4. **Navigazione contestualizzata dei dati**  
+   Grazie a **GraphRAG**, Guardian sfrutta un approccio di *Retrieval-Augmented Generation* (RAG) basato su grafi, che consente di navigare in modo efficiente attraverso grandi moli di dati, fornendo risposte contestualizzate e precise. È possibile accedere rapidamente a informazioni su individui, veicoli, scuole o posti di lavoro associati a un determinato soggetto, offrendo un quadro completo e dettagliato della situazione.
+
+5. **Calcolo del coefficiente di rischio**  
+   Il sistema include un tool dedicato per calcolare uno pseudo coefficiente di rischio. Questo valore è determinato sulla base del livello di gravità dei reati di una persona, includendo un'analisi dei reati commessi dai suoi familiari o colleghi. Tale funzionalità consente di ottenere una visione complessiva del potenziale livello di pericolosità di un individuo.

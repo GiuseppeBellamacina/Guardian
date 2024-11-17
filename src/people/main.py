@@ -10,7 +10,7 @@ generator = DataGenerator()
 graphs: list[FamilyGraph] = []
 
 oldest_groups = list(AgeGroup)[-5:] # Last 5 age groups
-N_GRAPHS = 20 # Start with N_GRAPHS families
+N_GRAPHS = 25 # Start with N_GRAPHS families
 N_PROGENITORS = 25 # Each family has N_PROGENITORS progenitors
 data_dir = "../../data/db/"
 
