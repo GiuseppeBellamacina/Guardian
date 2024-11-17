@@ -24,8 +24,9 @@ with cols[1]:
 
 if uploaded_picture or camera_picture:
     st.session_state.has_uploaded_picture = True
-    st.image(uploaded_picture, caption="Immagine caricata, il modello sta elaborando le informazioni...")
-    image_data = uploaded_picture.getvalue()
+    pic = uploaded_picture if uploaded_picture else camera_picture
+    st.image(pic, caption="Immagine caricata, il modello sta elaborando le informazioni...")
+    image_data = pic.getvalue()
     image_data = base64.b64encode(image_data).decode("utf-8")
     image = f"{image_data}"
 
