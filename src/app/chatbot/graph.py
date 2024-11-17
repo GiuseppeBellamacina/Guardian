@@ -144,7 +144,7 @@ def calculate_risk_coefficients(state: State, config: RunnableConfig, cf: str) -
         COALESCE(SUM(DISTINCT c1.severity_score), 0) AS score_reati_partner,
         COALESCE(SUM(DISTINCT c2.severity_score), 0) AS score_reati_genitori, 
         COALESCE(SUM(DISTINCT c3.severity_score), 0) AS score_reati_figli,
-        COALESCE(SUM(DISTINCT c4.severity_score), 0) AS score_reati_colleghi
+        COALESCE(SUM(DISTINCT c4.severity_score), 0) AS score_reati_colleghi,
         COALESCE(SUM(DISTINCT c5.severity_score), 0) AS score_reati_fratelli
     """
     try:
