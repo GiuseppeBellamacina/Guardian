@@ -138,12 +138,14 @@ def calculate_risk_coefficients(state: State, config: RunnableConfig, cf: str) -
     OPTIONAL MATCH (p)-[:CHILD_OF]->(p2:Person)-[:HAS_COMMITTED]->(c2:Crime)
     OPTIONAL MATCH (p)<-[:CHILD_OF]-(p3:Person)-[:HAS_COMMITTED]->(c3:Crime)
     OPTIONAL MATCH (p)-[:WORK_AT]->(w:Workplace)<-[:WORK_AT]-(p4:Person)-[:HAS_COMMITTED]->(c4:Crime)
+    OPTIONAL MATCH (p)-[:CHILD_OF]->(p2:Person)<-[:CHILD_OF]-(sibling:Person)-[:HAS_COMMITTED]->(c5:Crime)
     RETURN 
-        COALESCE(SUM(DISTINCT c.severity_score), 0) AS direct_crime_score, 
-        COALESCE(SUM(DISTINCT c1.severity_score), 0) AS partner_crime_score,
-        COALESCE(SUM(DISTINCT c2.severity_score), 0) AS parents_crime_score, 
-        COALESCE(SUM(DISTINCT c3.severity_score), 0) AS children_crime_score,
-        COALESCE(SUM(DISTINCT c4.severity_score), 0) AS colleagues_crime_score
+        COALESCE(SUM(DISTINCT c.severity_score), 0) AS score_reati_diretti, 
+        COALESCE(SUM(DISTINCT c1.severity_score), 0) AS score_reati_partner,
+        COALESCE(SUM(DISTINCT c2.severity_score), 0) AS score_reati_genitori, 
+        COALESCE(SUM(DISTINCT c3.severity_score), 0) AS score_reati_figli,
+        COALESCE(SUM(DISTINCT c4.severity_score), 0) AS score_reati_colleghi
+        COALESCE(SUM(DISTINCT c5.severity_score), 0) AS score_reati_fratelli
     """
     try:
         result = db.query(query)
@@ -151,39 +153,43 @@ def calculate_risk_coefficients(state: State, config: RunnableConfig, cf: str) -
         if result:
             record = result[0]
             total_score = (
-                record["direct_crime_score"] * 0.4 +
-                record["partner_crime_score"] * 0.2 +
-                record["parents_crime_score"] * 0.15 +
-                record["children_crime_score"] * 0.15 +
-                record["colleagues_crime_score"] * 0.1
+                record["score_reati_diretti"] * 0.45 +
+                record["score_reati_partner"] * 0.2 +
+                record["score_reati_genitori"] * 0.1 +
+                record["score_reati_figli"] * 0.1 +
+                record["score_reati_colleghi"] * 0.05 +
+                record["score_reati_fratelli"] * 0.1
             )
             return {
-                    "direct_crime_score": record["direct_crime_score"],
-                    "partner_crime_score": record["partner_crime_score"],
-                    "parents_crime_score": record["parents_crime_score"],
-                    "children_crime_score": record["children_crime_score"],
-                    "colleagues_crime_score": record["colleagues_crime_score"],
-                    "weighted_risk_score": total_score
+                    "score_reati_diretti": record["score_reati_diretti"],
+                    "score_reati_partner": record["score_reati_partner"],
+                    "score_reati_genitori": record["score_reati_genitori"],
+                    "score_reati_figli": record["score_reati_figli"],
+                    "score_reati_colleghi": record["score_reati_colleghi"],
+                    "score_reati_fratelli": record["score_reati_fratelli"],
+                    "score_ponderato": total_score
                 }
         else:
             return {
-                    "direct_crime_score": 0,
-                    "partner_crime_score": 0,
-                    "parents_crime_score": 0,
-                    "children_crime_score": 0,
-                    "colleagues_crime_score": 0,
-                    "weighted_risk_score": 0
+                "score_reati_diretti": 0,
+                "score_reati_partner": 0,
+                "score_reati_genitori": 0,
+                "score_reati_figli": 0,
+                "score_reati_colleghi": 0,
+                "score_reati_fratelli": 0,
+                "score_ponderato": 0
                 }
     except Exception as e:
         print(f"Errore nel calcolo del coefficiente di rischio: {e}")
         return {
-                    "direct_crime_score": 0,
-                    "partner_crime_score": 0,
-                    "parents_crime_score": 0,
-                    "children_crime_score": 0,
-                    "colleagues_crime_score": 0,
-                    "weighted_risk_score": 0
-                }
+            "score_reati_diretti": 0,
+            "score_reati_partner": 0,
+            "score_reati_genitori": 0,
+            "score_reati_figli": 0,
+            "score_reati_colleghi": 0,
+            "score_reati_fratelli": 0,
+            "score_ponderato": 0
+            }
 
 def date_conversion(DateTime):
     return date(DateTime.year,DateTime.month,DateTime.day)
