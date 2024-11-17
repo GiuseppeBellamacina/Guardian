@@ -117,15 +117,15 @@ def update_session():
             cols = st.columns(3)
             with cols[0]:
                 if st.button("Info sui figli", use_container_width=True):
-                    col_index = 0
+                    col_index = 1
             with cols[1]:
                 if st.button("Info sul partner", use_container_width=True):
-                    col_index = 1
+                    col_index = 2
             with cols[2]:
                 if st.button("Info sull'auto", use_container_width=True):
-                    col_index = 2
+                    col_index = 3
             if col_index:
-                asyncio.run(conversation(button_queries[col_index]))
+                asyncio.run(conversation(button_queries[col_index-1]))
     if prompt := st.chat_input("Inserisci i dettagli della tua query", key="first_question"):
         os.system("cls" if os.name == "nt" else "clear")
         asyncio.run(conversation(prompt))
