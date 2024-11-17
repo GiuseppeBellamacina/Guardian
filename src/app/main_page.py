@@ -162,6 +162,9 @@ def main():
     st.set_page_config(page_icon="👮‍♂️", page_title="Guardian")
     st.title("Guardian👮‍♂️")
     st.subheader("L'assistente per strade più sicure")
+    account1 = '[![Repo](https://badgen.net/badge/icon/GitHub?icon=github&label=Drake9098&color=orange)](https://github.com/Drake9098)'
+    account2 = '[![Repo](https://badgen.net/badge/icon/GitHub?icon=github&label=GiuseppeBellamacina&color=blue)](https://github.com/GiuseppeBellamacina)'
+    st.markdown(account1 + " " + account2,unsafe_allow_html=True)
 
     initialize_session_state()
     update_session()
