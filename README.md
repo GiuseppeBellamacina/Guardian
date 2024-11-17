@@ -2,6 +2,9 @@
 
 **Guardian** è un avanzato **ChatBot** con supporto **MultiModale** progettato per aiutare le **Forze dell'Ordine**, fornendo informazioni critiche e tempestive riguardanti individui e veicoli fermati durante un posto di blocco. Grazie all'integrazione con **LangChain**, **LangGraph** e **Neo4j**, è in grado di accedere a dati sensibili e fornirli in tempo reale, rendendo il processo di identificazione e verifica più rapido ed efficiente.
 
+### Deployment
+[![Guardian Deployment](https://badgen.net/badge/Guardian/Streamlit%20App/green)](https://guardianbot.streamlit.app)
+
 ## Funzionalità principali
 
 1. **Precedenti penali**  
