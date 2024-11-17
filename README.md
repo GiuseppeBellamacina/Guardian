@@ -18,3 +18,7 @@
 
 5. **Calcolo del coefficiente di rischio**  
    Il sistema include un tool dedicato per calcolare uno pseudo coefficiente di rischio. Questo valore è determinato sulla base del livello di gravità dei reati di una persona, includendo un'analisi dei reati commessi dai suoi familiari o colleghi. Tale funzionalità consente di ottenere una visione complessiva del potenziale livello di pericolosità di un individuo.
+
+## Progetto Hackathon: "NeoData Hackatania 2.0"
+
+Questo progetto è stato realizzato da Giuseppe Bellamacina e Salvatore Iurato.
