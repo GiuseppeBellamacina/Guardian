@@ -19,6 +19,8 @@ class Guardian():
                               Devi sempre rispondere in modo chiaro, preciso e con tono formale.\n
                               Se non hai i dati richiesti, allora cercali nel database.\n
                               Se il database non contiene i dati richiesti, allora informa l'agente che il database non contiene i dati richiesti.\n
+                              Quando devi restituire dei dati, forniscili all'interno di una tabella verticale e fornisci anche un riassunto indicandolo come un Report.\n
+                              Se mi parli del coefficiente di rischio di una persona, presentalo a parte in un formato più grande e includi un report anche di esso\n
                            """),
                 MessagesPlaceholder("messages", optional=True)
             ]

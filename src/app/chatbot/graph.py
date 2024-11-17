@@ -163,7 +163,7 @@ def calculate_risk_coefficients(state: State, config: RunnableConfig, cf: str) -
                     "parents_crime_score": record["parents_crime_score"],
                     "children_crime_score": record["children_crime_score"],
                     "colleagues_crime_score": record["colleagues_crime_score"],
-                    "total_risk_score": total_score
+                    "weighted_risk_score": total_score
                 }
         else:
             return {
@@ -172,7 +172,7 @@ def calculate_risk_coefficients(state: State, config: RunnableConfig, cf: str) -
                     "parents_crime_score": 0,
                     "children_crime_score": 0,
                     "colleagues_crime_score": 0,
-                    "total_risk_score": 0
+                    "weighted_risk_score": 0
                 }
     except Exception as e:
         print(f"Errore nel calcolo del coefficiente di rischio: {e}")
@@ -182,7 +182,7 @@ def calculate_risk_coefficients(state: State, config: RunnableConfig, cf: str) -
                     "parents_crime_score": 0,
                     "children_crime_score": 0,
                     "colleagues_crime_score": 0,
-                    "total_risk_score": 0
+                    "weighted_risk_score": 0
                 }
 
 def date_conversion(DateTime):

@@ -48,6 +48,10 @@ CYPHER_EXAMPLES = [
     {
         "question": "Che auto guida la figlia di Mario Rossi di nome Giovanna?",
         "query": "MATCH (p:Person {{name: 'Mario', last_name: 'Rossi'}})<-[:CHILD_OF]-(p2:Person {{name: 'Giovanna'}})-[:DRIVES]->(c:Car) RETURN c",
+    },
+    {
+        "question": "Quali crimini hanno commesso i genitori di Mario Rossi?",
+        "query": "MATCH (p:Person {{name: 'Mario', last_name: 'Rossi'}})-[:CHILD_OF]->(p2:Person)-[:HAS_COMMITTED]->(c:Crime) RETURN p2, c",
     }
 ]
 
