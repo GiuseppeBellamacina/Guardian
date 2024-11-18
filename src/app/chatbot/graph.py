@@ -19,7 +19,7 @@ class State(TypedDict):
 def serialize_neo4l_datetime(datetime: DateTime) -> str:
     return datetime.strftime("%Y-%m-%d")
 
-def serialize_dict(data: Any) -> Any:
+def serialize_dict(data: List) -> List:
     if isinstance(data, list):
         return [serialize_dict(item) for item in data]
     elif isinstance(data, dict):
@@ -32,6 +32,11 @@ def serialize_dict(data: Any) -> Any:
     else:
         return data
 
+def get_last_n(lst: List, n: int) -> List:
+    if n > len(lst):
+        return lst
+    return lst[-n:]
+
 def searcher(state: State, config: RunnableConfig) -> List:
     """
     Crea una query Cypher in base alla conversazione e cerca nel database Neo4j.
@@ -43,7 +48,7 @@ def searcher(state: State, config: RunnableConfig) -> List:
         query = cypher_query_generator.invoke({"question": messages})
         print("\33[1;34mSearcher query\33[0m:", query)
         if query:
-            result = db.query(query)
+            result = get_last_n(db.query(query), 10)
             if result:
                 data = serialize_dict(result)
                 old_data = state.get("data", [])
