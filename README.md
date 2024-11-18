@@ -1,5 +1,6 @@
 # 🏆 Vincitore Hackathon 🏆
 ## NeoData Hackatania 2.0
+### 18 novembre 2024
 Questo progetto è stato realizzato da Giuseppe Bellamacina e Salvatore Iurato.
 
 [![NeoData Hackatania 2.0](https://badgen.net/badge/🏆/Vincitore/orange)](https://devpost.com/software/guardian-p2g0df)
