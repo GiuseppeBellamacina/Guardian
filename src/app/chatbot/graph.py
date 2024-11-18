@@ -32,10 +32,10 @@ def serialize_dict(data: List) -> List:
     else:
         return data
 
-def get_last_n(lst: List, n: int) -> List:
+def get_first_n(lst: List, n: int) -> List:
     if n > len(lst):
         return lst
-    return lst[-n:]
+    return lst[:n]
 
 def searcher(state: State, config: RunnableConfig) -> List:
     """
@@ -48,7 +48,7 @@ def searcher(state: State, config: RunnableConfig) -> List:
         query = cypher_query_generator.invoke({"question": messages})
         print("\33[1;34mSearcher query\33[0m:", query)
         if query:
-            result = get_last_n(db.query(query), 10)
+            result = get_first_n(db.query(query), 10)
             if result:
                 data = serialize_dict(result)
                 old_data = state.get("data", [])
