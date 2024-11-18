@@ -1,3 +1,9 @@
+# 🏆 Vincitore Hackathon 🏆
+## NeoData Hackatania 2.0
+Questo progetto è stato realizzato da Giuseppe Bellamacina e Salvatore Iurato.
+
+[![NeoData Hackatania 2.0](https://badgen.net/badge/🏆/Vincitore/orange)](https://devpost.com/software/guardian-p2g0df)
+
 # Guardian
 
 **Guardian** è un avanzato **ChatBot** con supporto **MultiModale** progettato per aiutare le **Forze dell'Ordine**, fornendo informazioni critiche e tempestive riguardanti individui e veicoli fermati durante un posto di blocco o per un'indagine. Grazie all'integrazione con **LangChain**, **LangGraph** e **Neo4j**, è in grado di accedere a dati sensibili e fornirli in tempo reale, rendendo il processo di identificazione e verifica più rapido ed efficiente.
@@ -24,7 +30,3 @@
 
 5. **Calcolo del coefficiente di rischio**  
    Il sistema include un tool dedicato per calcolare uno pseudo coefficiente di rischio. Questo valore è determinato sulla base del livello di gravità dei reati di una persona, includendo un'analisi dei reati commessi dai suoi familiari o colleghi. Tale funzionalità consente di ottenere una visione complessiva del potenziale livello di pericolosità di un individuo.
-
-## Progetto Hackathon: "NeoData Hackatania 2.0"
-
-Questo progetto è stato realizzato da Giuseppe Bellamacina e Salvatore Iurato.
